@@ -1,0 +1,20 @@
+dist: bionic
+language: python
+python:
+  - "2.7"
+
+before_install:
+  - ./install.sh
+
+script:
+  - ./make_gtfs.sh
+  - ls
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_DEPLOY_TOKEN
+  local_dir: output
+  keep-history: true
+  on:
+    branch: master

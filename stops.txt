@@ -1,0 +1,4 @@
+stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
+9.9516504,76.2445995,node/6300587485,,To fort kochi,0
+9.9608564,76.2428762,node/4639553292,,Chirattapalam,0
+9.9572392,76.2423743,node/6300587388,,To fort kochi,0

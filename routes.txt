@@ -1,0 +1,3 @@
+route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_color,route_text_color
+3,2197377,,Pala - Kallara Route,unknown,,1779c2,ffffff
+3,10512380,,Fort Kochi bus route,unknown,,1779c2,ffffff

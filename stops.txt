@@ -1,6 +1,7 @@
 stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 10.1409528,76.203369,node/7084389851,,[Stop],0
 10.14089,76.2034965,node/7084389852,,[Stop],0
+10.0755901,76.2112602,node/7294644885,,Thayyezhuth Ln,0
 10.1176422,76.2002476,node/7052794239,,Vadakekkara,0
 10.0790683,76.2105579,node/4729063219,,Aniyal,0
 9.9516504,76.2445995,node/6300587485,,To fort kochi,0
@@ -67,7 +68,6 @@ stop_lat,stop_lon,stop_id,parent_station,stop_name,location_type
 9.9858018,76.2506849,node/7052794271,,Vallarpadam,0
 9.9914481,76.2655954,node/7052794270,,Bolgatty Bus Stop,0
 10.0721065,76.2117953,node/7019570876,,Nayarambalam,0
-10.0755483,76.2112527,node/7019570877,,Thayyezhuth Ln,0
 10.0633289,76.2131832,node/7019570874,,kochambalam,0
 10.0664302,76.2128566,node/7019570875,,ATH,0
 10.0596311,76.2140667,node/7019570872,,kudungasseri,0

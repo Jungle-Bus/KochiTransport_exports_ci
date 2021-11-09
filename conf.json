@@ -1,0 +1,30 @@
+{
+    "default_agency": {
+        "agency_id": "unknown",
+        "agency_name": "unknown agency",
+        "agency_url": "https://junglebus.io",
+        "agency_timezone": "Asia/Kolkata",
+        "agency_lang": "en",
+        "agency_phone": "",
+        "agency_fare_url": ""
+    },
+    "feed_info": {
+        "feed_publisher_name": "Jungle Bus",
+        "feed_publisher_url": "http://junglebus.io",
+        "feed_contact_url" : "http://junglebus.io",
+        "feed_lang": "en",
+        "feed_start_date": "20211115",
+        "feed_end_date": "20220601"
+    },
+    "make_stop_times": {
+        "algo": "osm_duration_tag",
+        "speed_by_mode": {
+            "ferry": 10,
+            "bus": 10
+        }
+    },
+    "default_stop_name": "[stop]",
+    "osm_filter" : {
+        "mode" : ["bus", "ferry"]
+    }
+}

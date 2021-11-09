@@ -2,13 +2,11 @@
 
 set -ev
 
-#install feedvalidator
-wget https://github.com/google/transitfeed/archive/1.2.16.zip --output-document=transitfeed.zip
-unzip transitfeed.zip
+wget https://github.com/mecatran/gtfsvtor/releases/download/v0.1.1/gtfsvtor.zip
+unzip gtfsvtor.zip
 
-# install osm2gtfs
-git clone https://github.com/grote/osm2gtfs
+git clone --branch=csv https://github.com/Jungle-Bus/prism
 
-cd osm2gtfs
+cd prism
 
-pip install -e .
+poetry install

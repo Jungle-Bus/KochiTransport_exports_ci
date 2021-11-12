@@ -37,7 +37,7 @@ jobs:
     - name: Export data
       env:
         INTERLINE_EXTRACTS_API_KEY: ${{ secrets.INTERLINE_EXTRACTS_API_KEY }}    
-      run: ./make_gtfs.sh
+      run: ./export_data.sh
     - name: Deploy
       if: ${{ github.ref == 'refs/heads/master' }}
       uses: peaceiris/actions-gh-pages@v3

@@ -1,0 +1,10 @@
+line_id,name,code,colour,operator,network,mode
+r10512380,Fort Kochi bus route,,,Private Red Bus,,bus
+r10831465,Fort Kochi - Vypin Ro Ro,,,,,ferry
+r10831516,Nedungad <=> Ernakulam,,,,private,bus
+r10831517,Ernakulam <=> Manjanakkad,,,,private,bus
+r10831518,N Paravur <=> Ernakulam,,,,private,bus
+r12759113,Munambam <=> Ernakulam,,,,private,bus
+r12759289,Ernakulam<=>Container rd <=>Varapuzha <=>North Paravur,,,,,bus
+r13374892,N Paravur <=> Kottuvally south,,,,Private,bus
+r13374893,N Paravur <=> Munambam,,,,Private,bus

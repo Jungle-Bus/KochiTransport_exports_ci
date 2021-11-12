@@ -1,2 +1,3 @@
-agency_url,agency_name,agency_id,agency_timezone,agency_lang
-https://junglebus.io,unknown agency,unknown,Asia/Kolkata,en
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+Private Red Bus,Private Red Bus,https://junglebus.io,Asia/Kolkata,en,,,
+unknown,unknown agency,https://junglebus.io,Asia/Kolkata,en,,,

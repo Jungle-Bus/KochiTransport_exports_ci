@@ -1,8 +1,10 @@
-route_type,route_id,route_short_name,route_long_name,agency_id,route_desc,route_color,route_text_color
-3,2197377,,Pala - Kallara Route,unknown,,1779c2,ffffff
-3,10512380,,Fort Kochi bus route,unknown,,1779c2,ffffff
-3,12153822,3,Nagampadam bus Terminal ↔ Ett,unknown,,1779c2,ffffff
-4,10831465,,Fort Kochi - Vypin Ro Ro,unknown,,1779c2,ffffff
-3,10831516,,Nedungad <=> Ernakulam,unknown,,1779c2,ffffff
-3,10831517,,Ernakulam <=> Manjanakkad,unknown,,1779c2,ffffff
-3,10831518,,N Paravur <=> Ernakulam,unknown,,1779c2,ffffff
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+r10512380,Private Red Bus,,Fort Kochi bus route,,3,https://jungle-bus.github.io/unroll/route.html?line=10512380,,
+r10831465,unknown,,Fort Kochi - Vypin Ro Ro,,4,https://jungle-bus.github.io/unroll/route.html?line=10831465,,
+r10831516,unknown,,Nedungad <=> Ernakulam,,3,https://jungle-bus.github.io/unroll/route.html?line=10831516,,
+r10831517,unknown,,Ernakulam <=> Manjanakkad,,3,https://jungle-bus.github.io/unroll/route.html?line=10831517,,
+r10831518,unknown,,N Paravur <=> Ernakulam,,3,https://jungle-bus.github.io/unroll/route.html?line=10831518,,
+r12759113,unknown,,Munambam <=> Ernakulam,,3,https://jungle-bus.github.io/unroll/route.html?line=12759113,,
+r12759289,unknown,,Ernakulam<=>Container rd <=>Varapuzha <=>North Paravur,,3,https://jungle-bus.github.io/unroll/route.html?line=12759289,,
+r13374892,unknown,,N Paravur <=> Kottuvally south,,3,https://jungle-bus.github.io/unroll/route.html?line=13374892,,
+r13374893,unknown,,N Paravur <=> Munambam,,3,https://jungle-bus.github.io/unroll/route.html?line=13374893,,

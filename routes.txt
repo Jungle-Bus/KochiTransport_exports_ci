@@ -8,3 +8,5 @@ r12759113,unknown,,Munambam <=> Ernakulam,,3,https://jungle-bus.github.io/unroll
 r12759289,unknown,,Ernakulam<=>Container rd <=>Varapuzha <=>North Paravur,,3,https://jungle-bus.github.io/unroll/route.html?line=12759289,,
 r13374892,unknown,,N Paravur <=> Kottuvally south,,3,https://jungle-bus.github.io/unroll/route.html?line=13374892,,
 r13374893,unknown,,N Paravur <=> Munambam,,3,https://jungle-bus.github.io/unroll/route.html?line=13374893,,
+r13472198,Private Owners,,Vytilla Mobility Hub ↔ High Court,,3,https://jungle-bus.github.io/unroll/route.html?line=13472198,,
+r13478965,Private Owners,,N Paravur ↔ Ezhikkara,,3,https://jungle-bus.github.io/unroll/route.html?line=13478965,0000ff,ffffff

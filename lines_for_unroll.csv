@@ -1,12 +1,21 @@
 line_id,name,code,colour,operator,network,mode
 r10512380,Fort Kochi bus route,,,Private Red Bus,,bus
-r10831465,Fort Kochi - Vypin Ro Ro,,,,,ferry
-r10831516,Nedungad <=> Ernakulam,,,,private,bus
+r10831465,Vypin ↔ Fort Kochi (Ro Ro),,,KSWTD,Kochi city boat,ferry
+r10831516,Nedungad ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
 r10831517,Ernakulam <=> Manjanakkad,,,,private,bus
-r10831518,N Paravur <=> Ernakulam,,,,private,bus
-r12759113,Munambam <=> Ernakulam,,,,private,bus
+r10831518,N Paravur ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r12759113,Munambam ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
 r12759289,Ernakulam<=>Container rd <=>Varapuzha <=>North Paravur,,,,,bus
 r13374892,N Paravur <=> Kottuvally south,,,,Private,bus
 r13374893,N Paravur <=> Munambam,,,,Private,bus
 r13472198,Vytilla Mobility Hub ↔ High Court,,,Private Owners,City bus,bus
-r13478965,N Paravur ↔ Ezhikkara,,,Private Owners,Mofussil Kochi bus,bus
+r13478965,North Paravur ↔ Ezhikkara,,,Private Owners,Mofussil Kochi bus,bus
+r13489073,Fort Kochi ↔ Edakochi,,,Private Owners,Kochi city bus,bus
+r13497147,High Court ↔ Panambukad (Vallarpadam),,,Private Owners,Mofussil Kochi bus,bus
+r13498566,Ernakulam ↔ Vypin,,,KSWTD,Kochi city boat,ferry
+r13498742,Ernakulam ↔ Fort Kochi,,,KSWTD,Kochi city boat,ferry
+r13498857,Ernakulam ↔ Fort Kochi via Wellington Island,,,KSWTD,Kochi city boat,ferry
+r13500567,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
+r13500673,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
+r13500936,Fort Kochi ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13510567,Aluva ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus

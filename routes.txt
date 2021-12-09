@@ -1,12 +1,21 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
 r10512380,Private Red Bus,,Fort Kochi bus route,,3,https://jungle-bus.github.io/unroll/route.html?line=10512380,,
-r10831465,unknown,,Fort Kochi - Vypin Ro Ro,,4,https://jungle-bus.github.io/unroll/route.html?line=10831465,,
-r10831516,unknown,,Nedungad <=> Ernakulam,,3,https://jungle-bus.github.io/unroll/route.html?line=10831516,,
+r10831465,KSWTD,,Vypin ↔ Fort Kochi (Ro Ro),,4,https://jungle-bus.github.io/unroll/route.html?line=10831465,,
+r10831516,Private Owners,,Nedungad ↔ High Court,,3,https://jungle-bus.github.io/unroll/route.html?line=10831516,0000ff,ffffff
 r10831517,unknown,,Ernakulam <=> Manjanakkad,,3,https://jungle-bus.github.io/unroll/route.html?line=10831517,,
-r10831518,unknown,,N Paravur <=> Ernakulam,,3,https://jungle-bus.github.io/unroll/route.html?line=10831518,,
-r12759113,unknown,,Munambam <=> Ernakulam,,3,https://jungle-bus.github.io/unroll/route.html?line=12759113,,
+r10831518,Private Owners,,N Paravur ↔ High Court,,3,https://jungle-bus.github.io/unroll/route.html?line=10831518,0000ff,ffffff
+r12759113,Private Owners,,Munambam ↔ High Court,,3,https://jungle-bus.github.io/unroll/route.html?line=12759113,0000ff,ffffff
 r12759289,unknown,,Ernakulam<=>Container rd <=>Varapuzha <=>North Paravur,,3,https://jungle-bus.github.io/unroll/route.html?line=12759289,,
 r13374892,unknown,,N Paravur <=> Kottuvally south,,3,https://jungle-bus.github.io/unroll/route.html?line=13374892,,
 r13374893,unknown,,N Paravur <=> Munambam,,3,https://jungle-bus.github.io/unroll/route.html?line=13374893,,
 r13472198,Private Owners,,Vytilla Mobility Hub ↔ High Court,,3,https://jungle-bus.github.io/unroll/route.html?line=13472198,,
-r13478965,Private Owners,,N Paravur ↔ Ezhikkara,,3,https://jungle-bus.github.io/unroll/route.html?line=13478965,0000ff,ffffff
+r13478965,Private Owners,,North Paravur ↔ Ezhikkara,,3,https://jungle-bus.github.io/unroll/route.html?line=13478965,0000ff,ffffff
+r13489073,Private Owners,,Fort Kochi ↔ Edakochi,,3,https://jungle-bus.github.io/unroll/route.html?line=13489073,008000,ffffff
+r13497147,Private Owners,,High Court ↔ Panambukad (Vallarpadam),,3,https://jungle-bus.github.io/unroll/route.html?line=13497147,0000ff,ffffff
+r13498566,KSWTD,,Ernakulam ↔ Vypin,,4,https://jungle-bus.github.io/unroll/route.html?line=13498566,,
+r13498742,KSWTD,,Ernakulam ↔ Fort Kochi,,4,https://jungle-bus.github.io/unroll/route.html?line=13498742,,
+r13498857,KSWTD,,Ernakulam ↔ Fort Kochi via Wellington Island,,4,https://jungle-bus.github.io/unroll/route.html?line=13498857,,
+r13500567,Private Owners,,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,3,https://jungle-bus.github.io/unroll/route.html?line=13500567,008000,ffffff
+r13500673,Private Owners,,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,3,https://jungle-bus.github.io/unroll/route.html?line=13500673,008000,ffffff
+r13500936,Private Owners,,Fort Kochi ↔ Kumbalangi,,3,https://jungle-bus.github.io/unroll/route.html?line=13500936,008000,ffffff
+r13510567,Private Owners,,Aluva ↔ Fort Kochi,,3,https://jungle-bus.github.io/unroll/route.html?line=13510567,008000,ffffff

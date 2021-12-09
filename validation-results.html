@@ -162,7 +162,7 @@ span.var {
 
 		</style>
 		<h1 class="logo image">GTFS validation report
-			<span class="xsmaller"> - 2 
+			<span class="xsmaller"> - 4 
 				<span class="badge INFO">INFO
 				</span>
 			</span>
@@ -170,7 +170,7 @@ span.var {
 				<span class="badge WARNING">WARNING
 				</span>
 			</span>
-			<span class="xsmaller"> - 75 
+			<span class="xsmaller"> - 72 
 				<span class="badge ERROR">ERROR
 				</span>
 			</span>
@@ -180,13 +180,13 @@ span.var {
 				<span class="smaller badge INFO">INFO
 				</span>Statistics
 			</li>
-			<li>1 
+			<li>3 
 				<span class="smaller badge INFO">INFO
 				</span>Stops too close
 			</li>
 			<li>1 
 				<span class="smaller badge WARNING">WARNING
-				</span>Duplicated trips
+				</span>Invalid route_short_name/route_long_name value
 			</li>
 			<li>1 
 				<span class="smaller badge WARNING">WARNING
@@ -196,9 +196,13 @@ span.var {
 				<span class="smaller badge WARNING">WARNING
 				</span>Unused shape
 			</li>
-			<li>75 
+			<li>71 
 				<span class="smaller badge ERROR">ERROR
 				</span>Stop too far from shape
+			</li>
+			<li>1 
+				<span class="smaller badge ERROR">ERROR
+				</span>Too fast travel
 			</li>
 		</ul>
 		<h2>No service exception
@@ -232,7 +236,25 @@ span.var {
 					</td>
 					<td class="fieldname">
 					</td>
-					<td class="issue">Loaded 1 feed-info, 3 agencies, 11 routes, 289 stops, 1 calendars, 0 calendar dates, 22 trips, 679 stop times, 0 transfers, 0 pathways, 0 fare attributes, 0 fare rules
+					<td class="issue">Loaded 1 feed-info, 4 agencies, 20 routes, 505 stops, 1 calendars, 0 calendar dates, 37 trips, 993 stop times, 0 transfers, 0 pathways, 0 fare attributes, 0 fare rules
+					</td>
+				</tr>
+			</table>
+		</div>
+		<h2>Too fast travel
+			<span class="smaller"> - 1
+				<span class="badge ERROR">ERROR
+				</span>
+			</span>
+		</h2>
+		<div class="subcategory">
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">
+					</td>
+					<td class="issue">Too fast travel between stop <span class='id'>n8668423952</span> seq <span class='id'>15</span> @6:49:31 and stop <span class='id'>n8668423966</span> seq <span class='id'>16</span> @6:51:05 (distance <span class='var'>9816.86</span>m), in trip <span class='id'>r13500566_Mo-Su</span> of route <span class='id'>r13500567</span> <span class='var'>(null)</span>: <span class='var'>104.43</span> > <span class='var'>27.78</span> m/s
 					</td>
 				</tr>
 			</table>
@@ -287,22 +309,112 @@ span.var {
 				</tr>
 			</table>
 		</div>
-		<h2>stops.txt
+		<h2>routes.txt
 			<span class="smaller"> - 1
-				<span class="badge INFO">INFO
-				</span>
-			</span>
-			<span class="smaller"> - 75
-				<span class="badge ERROR">ERROR
+				<span class="badge WARNING">WARNING
 				</span>
 			</span>
 		</h2>
 		<ul>
 			<li>1
+				<span class="smaller badge WARNING">WARNING
+				</span>Invalid route_short_name/route_long_name value
+			</li>
+		</ul>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L18
+					</td>
+					<td>r13500567
+					</td>
+					<td>Private Owners
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Vyttila Mobility Hub ↔ Vyttila Mobility Hub
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13500567
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L19
+					</td>
+					<td>r13500673
+					</td>
+					<td>Private Owners
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Vyttila Mobility Hub ↔ Vyttila Mobility Hub
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13500673
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Vyttila Mobility Hub ↔ Vyttila Mobility Hub</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<h2>stops.txt
+			<span class="smaller"> - 3
+				<span class="badge INFO">INFO
+				</span>
+			</span>
+			<span class="smaller"> - 71
+				<span class="badge ERROR">ERROR
+				</span>
+			</span>
+		</h2>
+		<ul>
+			<li>3
 				<span class="smaller badge INFO">INFO
 				</span>Stops too close
 			</li>
-			<li>75
+			<li>71
 				<span class="smaller badge ERROR">ERROR
 				</span>Stop too far from shape
 			</li>
@@ -348,9 +460,9 @@ span.var {
 					<td>Vypin
 					</td>
 					<td/>
-					<td class="ERROR">9.9734483
+					<td class="ERROR">9.973546
 					</td>
-					<td class="ERROR">76.2440927
+					<td class="ERROR">76.244141
 					</td>
 					<td/>
 					<td/>
@@ -368,15 +480,7 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>7</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>6198.48m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>7</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>6198.48m</span> away
+					<td class="issue">Stop at sequence <span class='var'>7</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>6190.25m</span> away
 					</td>
 				</tr>
 			</table>
@@ -414,13 +518,145 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L7
+					<td class="linenr">L10
+					</td>
+					<td>n2580734253
+					</td>
+					<td/>
+					<td>PipeLine Junction
+					</td>
+					<td/>
+					<td class="ERROR">10.0054933
+					</td>
+					<td class="ERROR">76.312796
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>28</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4269.95m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L11
+					</td>
+					<td>n2580734682
+					</td>
+					<td/>
+					<td>EMC
+					</td>
+					<td/>
+					<td class="ERROR">9.999015
+					</td>
+					<td class="ERROR">76.3140901
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>31</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>3536.50m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L15
 					</td>
 					<td>n2780917203
 					</td>
 					<td>KSRTC Bus Stand
 					</td>
-					<td>Kerala State Road Transport Corporation Bus Stand
+					<td>KSRTC Bus Stand
 					</td>
 					<td/>
 					<td class="ERROR">10.1449289
@@ -481,12 +717,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L12
+					<td class="linenr">L20
 					</td>
 					<td>n3676244647
 					</td>
 					<td/>
-					<td>namboodrichanda aal
+					<td>Namboodrichanda aal
 					</td>
 					<td/>
 					<td class="ERROR">10.1485053
@@ -547,7 +783,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L35
+					<td class="linenr">L44
 					</td>
 					<td>n4731124415
 					</td>
@@ -613,99 +849,17 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L41
+					<td class="linenr">L51
 					</td>
 					<td>n5756729629
 					</td>
 					<td/>
-					<td>Bolgatty Bus Stop
+					<td>Bolgatty
 					</td>
 					<td/>
-					<td class="ERROR">9.9910865
+					<td class="ERROR">9.9910377
 					</td>
-					<td class="ERROR">76.264877
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>2</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5909.10m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>2</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5909.10m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>2</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>5909.10m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L45
-					</td>
-					<td>n6864553692
-					</td>
-					<td/>
-					<td>Company Peedika
-					</td>
-					<td/>
-					<td class="ERROR">10.0008942
-					</td>
-					<td class="ERROR">76.2346465
+					<td class="ERROR">76.2648026
 					</td>
 					<td/>
 					<td/>
@@ -723,187 +877,7 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>13</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>2981.81m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>13</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>2981.81m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>9</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>2981.81m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L50
-					</td>
-					<td>n7018599469
-					</td>
-					<td/>
-					<td>Puthuvype
-					</td>
-					<td/>
-					<td class="ERROR">10.0043519
-					</td>
-					<td class="ERROR">76.2328216
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>14</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>2549.62m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>14</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>2549.62m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>10</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>2549.62m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L51
-					</td>
-					<td>n7018735456
-					</td>
-					<td/>
-					<td>Valappu
-					</td>
-					<td/>
-					<td class="ERROR">10.0147926
-					</td>
-					<td class="ERROR">76.2275184
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>16</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>1256.64m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>16</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>1256.64m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>12</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>1256.64m</span> away
+					<td class="issue">Stop at sequence <span class='var'>2</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5906.40m</span> away
 					</td>
 				</tr>
 			</table>
@@ -943,15 +917,15 @@ span.var {
 				<tr>
 					<td class="linenr">L53
 					</td>
-					<td>n7019483219
+					<td>n5757830543
 					</td>
 					<td/>
-					<td>Malippuram
+					<td>Pipeline Junction
 					</td>
 					<td/>
-					<td class="ERROR">10.0188416
+					<td class="ERROR">10.0048763
 					</td>
-					<td class="ERROR">76.2256224
+					<td class="ERROR">76.3132582
 					</td>
 					<td/>
 					<td/>
@@ -969,23 +943,7 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>17</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>764.51m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>17</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>764.51m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>13</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>764.51m</span> away
+					<td class="issue">Stop at sequence <span class='var'>30</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4191.60m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1023,7 +981,425 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L104
+					<td class="linenr">L54
+					</td>
+					<td>n5757830551
+					</td>
+					<td/>
+					<td>Puthiya Road Bypass Junction
+					</td>
+					<td/>
+					<td class="ERROR">9.9926588
+					</td>
+					<td class="ERROR">76.3151349
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>33</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>2823.55m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L61
+					</td>
+					<td>n6300587485
+					</td>
+					<td/>
+					<td>To fort kochi
+					</td>
+					<td/>
+					<td class="INFO">9.9516672
+					</td>
+					<td class="INFO">76.2446094
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L250
+					</td>
+					<td>n8668955468
+					</td>
+					<td/>
+					<td>Fortkochi Veli
+					</td>
+					<td/>
+					<td class="INFO">9.9516476
+					</td>
+					<td class="INFO">76.2446297
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>3.11m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L68
+					</td>
+					<td>n6864553692
+					</td>
+					<td/>
+					<td>Company Peedika
+					</td>
+					<td/>
+					<td class="ERROR">10.0008942
+					</td>
+					<td class="ERROR">76.2346465
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>13</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>2981.81m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L73
+					</td>
+					<td>n7018599469
+					</td>
+					<td/>
+					<td>Puthuvype
+					</td>
+					<td/>
+					<td class="ERROR">10.0043519
+					</td>
+					<td class="ERROR">76.2328216
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>14</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>2549.62m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L74
+					</td>
+					<td>n7018735456
+					</td>
+					<td/>
+					<td>Valappu
+					</td>
+					<td/>
+					<td class="ERROR">10.0147926
+					</td>
+					<td class="ERROR">76.2275184
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>16</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>1256.64m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L76
+					</td>
+					<td>n7019483219
+					</td>
+					<td/>
+					<td>Malippuram hospital
+					</td>
+					<td/>
+					<td class="ERROR">10.0188416
+					</td>
+					<td class="ERROR">76.2256224
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>17</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>764.51m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L127
 					</td>
 					<td>n7021264004
 					</td>
@@ -1054,22 +1430,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>9</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5148.94m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>9</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5148.94m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>5</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>5148.94m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1105,7 +1465,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L105
+					<td class="linenr">L128
 					</td>
 					<td>n7021264005
 					</td>
@@ -1136,22 +1496,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>11</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>4257.01m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>11</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>4257.01m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>7</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>4257.01m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1187,7 +1531,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L115
+					<td class="linenr">L138
 					</td>
 					<td>n7052794252
 					</td>
@@ -1218,22 +1562,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>1</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>7168.40m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>1</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>7168.40m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>1</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>7168.40m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1269,7 +1597,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L118
+					<td class="linenr">L141
 					</td>
 					<td>n7052794271
 					</td>
@@ -1300,22 +1628,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>4</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5310.04m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>4</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5310.04m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>4</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>5310.04m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1351,7 +1663,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L120
+					<td class="linenr">L143
 					</td>
 					<td>n7052794273
 					</td>
@@ -1382,22 +1694,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>10</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>4684.30m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>10</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>4684.30m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>6</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>4684.30m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1433,7 +1729,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L125
+					<td class="linenr">L149
 					</td>
 					<td>n7083824551
 					</td>
@@ -1464,22 +1760,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>15</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>1846.20m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>15</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>1846.20m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>11</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>1846.20m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1515,7 +1795,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L126
+					<td class="linenr">L150
 					</td>
 					<td>n7083824552
 					</td>
@@ -1546,22 +1826,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>12</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>3723.03m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>12</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>3723.03m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>8</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>3723.03m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1597,12 +1861,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L131
+					<td class="linenr">L155
 					</td>
 					<td>n7086058490
 					</td>
 					<td/>
-					<td>[stop]
+					<td>Vallarpadam Junction
 					</td>
 					<td/>
 					<td class="ERROR">9.9868419
@@ -1628,22 +1892,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>3</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5396.13m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>3</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5396.13m</span> away
-					</td>
-				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>3</span> on examplar trip <span class='id'>r10403637_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10403637</span> (at arc-length <span class='var'>9724.58</span>m): <span class='var'>5396.13m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1679,7 +1927,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L132
+					<td class="linenr">L156
 					</td>
 					<td>n7097918159
 					</td>
@@ -1710,14 +1958,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>5</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5204.57m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>5</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5204.57m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1753,12 +1993,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L133
+					<td class="linenr">L157
 					</td>
 					<td>n7097918160
 					</td>
 					<td/>
-					<td>[stop]
+					<td>Panikkaru Padi
 					</td>
 					<td/>
 					<td class="ERROR">9.9782814
@@ -1784,14 +2024,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>6</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5575.95m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>6</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5575.95m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1827,12 +2059,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L134
+					<td class="linenr">L158
 					</td>
 					<td>n7097918161
 					</td>
 					<td/>
-					<td>[stop]
+					<td>Panikkaru Padi
 					</td>
 					<td/>
 					<td class="ERROR">9.978214
@@ -1858,14 +2090,6 @@ span.var {
 					<td class="issue">Stop at sequence <span class='var'>8</span> on examplar trip <span class='id'>r10592288_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10592288</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5580.79m</span> away
 					</td>
 				</tr>
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>8</span> on examplar trip <span class='id'>r10523910_Mo-Su</span> is too far from computed projection point <span class='var'>(10.025457,76.223720)</span> on shape <span class='id'>r10523910</span> (at arc-length <span class='var'>11921.16</span>m): <span class='var'>5580.79m</span> away
-					</td>
-				</tr>
 			</table>
 		</div>
 		<div class="subcategory">
@@ -1901,7 +2125,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L142
+					<td class="linenr">L166
 					</td>
 					<td>n7099505375
 					</td>
@@ -1967,7 +2191,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L143
+					<td class="linenr">L167
 					</td>
 					<td>n7099579495
 					</td>
@@ -2033,7 +2257,73 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L165
+					<td class="linenr">L168
+					</td>
+					<td>n7099924088
+					</td>
+					<td/>
+					<td>North Paravur
+					</td>
+					<td/>
+					<td class="ERROR">10.1494882
+					</td>
+					<td class="ERROR">76.2317097
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>16</span> on examplar trip <span class='id'>r12376660_Mo-Su</span> is too far from computed projection point <span class='var'>(10.090734,76.255367)</span> on shape <span class='id'>r12376660</span> (at arc-length <span class='var'>8470.39</span>m): <span class='var'>7027.68m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L189
 					</td>
 					<td>n7102128834
 					</td>
@@ -2099,7 +2389,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L166
+					<td class="linenr">L190
 					</td>
 					<td>n7102128835
 					</td>
@@ -2165,7 +2455,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L167
+					<td class="linenr">L191
 					</td>
 					<td>n7102134354
 					</td>
@@ -2231,7 +2521,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L174
+					<td class="linenr">L201
 					</td>
 					<td>n7172652013
 					</td>
@@ -2297,7 +2587,271 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L183
+					<td class="linenr">L212
+					</td>
+					<td>n8463147704
+					</td>
+					<td/>
+					<td>Kaloor stadium
+					</td>
+					<td/>
+					<td class="ERROR">10.0008769
+					</td>
+					<td class="ERROR">76.2994962
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>24</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4386.46m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L214
+					</td>
+					<td>n8463147707
+					</td>
+					<td/>
+					<td>Mathrubhoomi
+					</td>
+					<td/>
+					<td class="ERROR">9.9970407
+					</td>
+					<td class="ERROR">76.2946906
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>22</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4378.48m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L215
+					</td>
+					<td>n8463147709
+					</td>
+					<td/>
+					<td>Kaloor
+					</td>
+					<td/>
+					<td class="ERROR">9.9947299
+					</td>
+					<td class="ERROR">76.2916945
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>21</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4432.28m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L219
+					</td>
+					<td>n8463175619
+					</td>
+					<td/>
+					<td>North Railway Station
+					</td>
+					<td/>
+					<td class="ERROR">9.9885607
+					</td>
+					<td class="ERROR">76.2859855
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>18</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4536.50m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L223
 					</td>
 					<td>n8466849055
 					</td>
@@ -2363,7 +2917,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L184
+					<td class="linenr">L224
 					</td>
 					<td>n8466849056
 					</td>
@@ -2429,7 +2983,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L185
+					<td class="linenr">L225
 					</td>
 					<td>n8466849058
 					</td>
@@ -2495,7 +3049,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L186
+					<td class="linenr">L226
 					</td>
 					<td>n8466849059
 					</td>
@@ -2561,7 +3115,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L187
+					<td class="linenr">L227
 					</td>
 					<td>n8466849062
 					</td>
@@ -2627,7 +3181,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L188
+					<td class="linenr">L228
 					</td>
 					<td>n8466849068
 					</td>
@@ -2693,7 +3247,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L189
+					<td class="linenr">L229
 					</td>
 					<td>n8466849069
 					</td>
@@ -2759,7 +3313,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L190
+					<td class="linenr">L230
 					</td>
 					<td>n8466849070
 					</td>
@@ -2825,12 +3379,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L191
+					<td class="linenr">L231
 					</td>
 					<td>n8466849072
 					</td>
 					<td/>
-					<td>pulprapady
+					<td>Pulprapady
 					</td>
 					<td/>
 					<td class="ERROR">10.1224008
@@ -2891,12 +3445,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L192
+					<td class="linenr">L232
 					</td>
 					<td>n8466849073
 					</td>
 					<td/>
-					<td>pulprapady
+					<td>Pulprapady
 					</td>
 					<td/>
 					<td class="ERROR">10.1224127
@@ -2957,7 +3511,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L193
+					<td class="linenr">L233
 					</td>
 					<td>n8466849092
 					</td>
@@ -3023,7 +3577,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L194
+					<td class="linenr">L234
 					</td>
 					<td>n8466849093
 					</td>
@@ -3089,7 +3643,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L195
+					<td class="linenr">L235
 					</td>
 					<td>n8466849104
 					</td>
@@ -3155,7 +3709,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L196
+					<td class="linenr">L236
 					</td>
 					<td>n8466849105
 					</td>
@@ -3221,7 +3775,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L197
+					<td class="linenr">L237
 					</td>
 					<td>n8466849111
 					</td>
@@ -3287,7 +3841,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L198
+					<td class="linenr">L238
 					</td>
 					<td>n8466849114
 					</td>
@@ -3353,12 +3907,12 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L199
+					<td class="linenr">L239
 					</td>
 					<td>n8466849115
 					</td>
 					<td/>
-					<td>KMK Jn
+					<td>KMK Junction
 					</td>
 					<td/>
 					<td class="ERROR">10.143904
@@ -3419,7 +3973,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L200
+					<td class="linenr">L240
 					</td>
 					<td>n8466853333
 					</td>
@@ -3485,7 +4039,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L201
+					<td class="linenr">L241
 					</td>
 					<td>n8466853334
 					</td>
@@ -3551,7 +4105,139 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L246
+					<td class="linenr">L248
+					</td>
+					<td>n8668423966
+					</td>
+					<td/>
+					<td>Saritha
+					</td>
+					<td/>
+					<td class="ERROR">9.9850283
+					</td>
+					<td class="ERROR">76.2766416
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>16</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>5294.86m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L249
+					</td>
+					<td>n8668423968
+					</td>
+					<td/>
+					<td>Kacherpady
+					</td>
+					<td/>
+					<td class="ERROR">9.9874669
+					</td>
+					<td class="ERROR">76.2850828
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>17</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4563.84m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L297
 					</td>
 					<td>n9182595032
 					</td>
@@ -3573,7 +4259,7 @@ span.var {
 					</td>
 				</tr>
 				<tr>
-					<td class="linenr">L247
+					<td class="linenr">L298
 					</td>
 					<td>n9182595033
 					</td>
@@ -3606,83 +4292,1085 @@ span.var {
 				</tr>
 			</table>
 		</div>
-		<h2>trips.txt
-			<span class="smaller"> - 1
-				<span class="badge WARNING">WARNING
-				</span>
-			</span>
-		</h2>
-		<ul>
-			<li>1
-				<span class="smaller badge WARNING">WARNING
-				</span>Duplicated trips
-			</li>
-		</ul>
 		<div class="subcategory">
 			<table class="sourceinfo">
 				<thead>
 					<tr>
 						<td class="linenr">
 						</td>
-						<td>route_id
+						<td>stop_id
 						</td>
-						<td>service_id
+						<td>stop_code
 						</td>
-						<td>trip_id
+						<td>stop_name
 						</td>
-						<td>trip_headsign
+						<td>stop_desc
 						</td>
-						<td>direction_id
+						<td>stop_lat
 						</td>
-						<td>shape_id
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
 						</td>
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L3
+					<td class="linenr">L310
 					</td>
-					<td>r10831465
+					<td>n9182595067
 					</td>
-					<td>Mo-Su
+					<td/>
+					<td>Deshabhimani
 					</td>
-					<td class="WARNING">r10524210_Mo-Su
+					<td/>
+					<td class="ERROR">9.9985658
 					</td>
-					<td>Fort Kochi
+					<td class="ERROR">76.2965364
 					</td>
+					<td/>
+					<td/>
 					<td>0
 					</td>
-					<td>r10524210
-					</td>
-				</tr>
-				<tr>
-					<td class="linenr">L4
-					</td>
-					<td>r10831465
-					</td>
-					<td>Mo-Su
-					</td>
-					<td class="WARNING">r10524211_Mo-Su
-					</td>
-					<td>Vypin
-					</td>
-					<td>1
-					</td>
-					<td>r10524211
+					<td/>
+					<td/>
+					<td>0
 					</td>
 				</tr>
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity WARNING">WARNING
+					<td class="severity ERROR">ERROR
 					</td>
-					<td class="fieldname">trip_id
+					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Duplicated trips on <span class='var'>199</span> overlapping days, from <span class='var'>2021/11/15</span> to <span class='var'>2022/06/01</span>
+					<td class="issue">Stop at sequence <span class='var'>23</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4373.58m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L312
+					</td>
+					<td>n9258708870
+					</td>
+					<td/>
+					<td>Chalikkavattom
+					</td>
+					<td/>
+					<td class="ERROR">9.9791637
+					</td>
+					<td class="ERROR">76.3173665
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>37</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>1320.20m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L398
+					</td>
+					<td>n9297193985
+					</td>
+					<td/>
+					<td>Ambalam
+					</td>
+					<td/>
+					<td class="INFO">10.0093271
+					</td>
+					<td class="INFO">76.2429547
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L417
+					</td>
+					<td>n9297289180
+					</td>
+					<td/>
+					<td>Ambalam
+					</td>
+					<td/>
+					<td class="INFO">10.0093527
+					</td>
+					<td class="INFO">76.2429865
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.50m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L420
+					</td>
+					<td>n9300383987
+					</td>
+					<td/>
+					<td>Fort Kochi Junkar Jetty
+					</td>
+					<td/>
+					<td class="ERROR">9.9686059
+					</td>
+					<td class="ERROR">76.2450682
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>1</span> on examplar trip <span class='id'>r10524210_Mo-Su</span> is too far from computed projection point <span class='var'>(9.973852,76.244591)</span> on shape <span class='id'>r10524210</span> (at arc-length <span class='var'>629.76</span>m): <span class='var'>585.68m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L424
+					</td>
+					<td>n9300384001
+					</td>
+					<td/>
+					<td>Ernakulam
+					</td>
+					<td/>
+					<td class="ERROR">9.9722927
+					</td>
+					<td class="ERROR">76.2782358
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>1</span> on examplar trip <span class='id'>r13498740_Mo-Su</span> is too far from computed projection point <span class='var'>(9.969130,76.251863)</span> on shape <span class='id'>r13498740</span> (at arc-length <span class='var'>2981.28</span>m): <span class='var'>2909.60m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L425
+					</td>
+					<td>n9300974346
+					</td>
+					<td/>
+					<td>Geethanjali Junction
+					</td>
+					<td/>
+					<td class="ERROR">9.9842567
+					</td>
+					<td class="ERROR">76.3165873
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>36</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>1882.23m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L426
+					</td>
+					<td>n9300974347
+					</td>
+					<td/>
+					<td>Chakkaraparambu
+					</td>
+					<td/>
+					<td class="ERROR">9.9892625
+					</td>
+					<td class="ERROR">76.3157384
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>34</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>2441.96m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L427
+					</td>
+					<td>n9300974350
+					</td>
+					<td/>
+					<td>Pipeline Junction
+					</td>
+					<td/>
+					<td class="ERROR">10.0051253
+					</td>
+					<td class="ERROR">76.3128202
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>29</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4229.54m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L428
+					</td>
+					<td>n9300974351
+					</td>
+					<td/>
+					<td>Pipeline Junction
+					</td>
+					<td/>
+					<td class="ERROR">10.0048667
+					</td>
+					<td class="ERROR">76.3118824
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>27</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4226.93m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L429
+					</td>
+					<td>n9300974353
+					</td>
+					<td/>
+					<td>Palarivattom
+					</td>
+					<td/>
+					<td class="ERROR">10.0027024
+					</td>
+					<td class="ERROR">76.3063306
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>26</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4201.91m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L430
+					</td>
+					<td>n9300974354
+					</td>
+					<td/>
+					<td>Janatha
+					</td>
+					<td/>
+					<td class="ERROR">10.0016273
+					</td>
+					<td class="ERROR">76.3024239
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>25</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4288.20m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L432
+					</td>
+					<td>n9300974357
+					</td>
+					<td/>
+					<td>Manapattyparambu
+					</td>
+					<td/>
+					<td class="ERROR">9.9922039
+					</td>
+					<td class="ERROR">76.2891752
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>19</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4467.83m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L433
+					</td>
+					<td>n9300974358
+					</td>
+					<td/>
+					<td>Town Hall
+					</td>
+					<td/>
+					<td class="ERROR">9.9911478
+					</td>
+					<td class="ERROR">76.2879309
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>20</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4510.06m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L503
+					</td>
+					<td>n9310588324
+					</td>
+					<td/>
+					<td>Convent
+					</td>
+					<td/>
+					<td class="ERROR">9.9966079
+					</td>
+					<td class="ERROR">76.3145006
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>32</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>3265.95m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L504
+					</td>
+					<td>n9310588325
+					</td>
+					<td/>
+					<td>Vaishali
+					</td>
+					<td/>
+					<td class="ERROR">9.9875494
+					</td>
+					<td class="ERROR">76.3160254
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>35</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>2250.26m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L505
+					</td>
+					<td>n9310588327
+					</td>
+					<td/>
+					<td>Vyttila
+					</td>
+					<td/>
+					<td class="ERROR">9.9702362
+					</td>
+					<td class="ERROR">76.3183837
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity ERROR">ERROR
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stop at sequence <span class='var'>38</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>445.19m</span> away
 					</td>
 				</tr>
 			</table>
 		</div>
 		<hr/>
-		<p class="comments">Validation done at Thu Dec 02 16:34:04 UTC 2021 by GTFSVTOR - Copyright (c) 2021 Mecatran
+		<p class="comments">Validation done at Thu Dec 09 02:35:29 UTC 2021 by GTFSVTOR - Copyright (c) 2021 Mecatran
 		</p>
 	</head>

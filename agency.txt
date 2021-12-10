@@ -1,5 +1,3 @@
 agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
-Private Red Bus,Private Red Bus,https://junglebus.io,Asia/Kolkata,en,,,
 KSWTD,KSWTD,https://junglebus.io,Asia/Kolkata,en,,,
 Private Owners,Private Owners,https://junglebus.io,Asia/Kolkata,en,,,
-unknown,unknown agency,https://junglebus.io,Asia/Kolkata,en,,,

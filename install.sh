@@ -10,3 +10,11 @@ git clone --branch=csv https://github.com/Jungle-Bus/prism
 cd prism
 
 poetry install
+
+cd ..
+
+git clone https://github.com/Jungle-Bus/bifidus_cli
+
+cd bifidus_cli
+
+poetry install

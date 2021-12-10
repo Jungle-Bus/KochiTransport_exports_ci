@@ -32,4 +32,7 @@ xsv join stop_point_id temp_line_route_stop.csv stop_point_id stop_points.csv |x
 
 rm temp_*
 
-cd ..
+cd ../bifidus_cli
+
+poetry run python bifidus_cli.py -l ../output/lines.csv -r ../output/routes.csv -u ../bifidus_config.csv -n KochiTransport > ../output/qa.md
+

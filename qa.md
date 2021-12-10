@@ -1,4 +1,4 @@
-# Analyse qualité pour SampleProject
+# Analyse qualité pour KochiTransport
 - [Voir la documentation](https://wiki.openstreetmap.org/wiki/India/Transport/Kochi)
 - [Explorer les erreurs sur Osmose](http://osmose.openstreetmap.fr/en/issues/open?country=india_kerala&item=9014,1260,2140,8040)
 - [Explorer les lignes](https://jungle-bus.github.io/unroll/?project=Kochi)

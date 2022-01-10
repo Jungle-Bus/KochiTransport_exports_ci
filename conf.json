@@ -20,10 +20,11 @@
         "algo": "osm_duration_tag",
         "speed_by_mode": {
             "ferry": 10,
-            "bus": 10
+            "bus": 20
         }
     },
     "default_stop_name": "[stop]",
+    "use_network_as_agency": "True",
     "osm_filter" : {
         "network" : ["Kochi city boat", "Kochi city bus","Mofussil Kochi bus","Ordinary bus"]
     }

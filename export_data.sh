@@ -6,8 +6,6 @@ wget "https://app.interline.io/osm_extracts/download_latest?string_id=kochi_indi
 
 osmium tags-filter data.osm.pbf type=route_master type=route -o pt_data.osm.pbf
 
-osmium fileinfo pt_data.osm.pbf 
-
 mkdir output
 
 cd prism

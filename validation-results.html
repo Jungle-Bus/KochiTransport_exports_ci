@@ -162,15 +162,15 @@ span.var {
 
 		</style>
 		<h1 class="logo image">GTFS validation report
-			<span class="xsmaller"> - 2 
+			<span class="xsmaller"> - 42 
 				<span class="badge INFO">INFO
 				</span>
 			</span>
-			<span class="xsmaller"> - 2 
+			<span class="xsmaller"> - 15 
 				<span class="badge WARNING">WARNING
 				</span>
 			</span>
-			<span class="xsmaller"> - 26 
+			<span class="xsmaller"> - 6 
 				<span class="badge ERROR">ERROR
 				</span>
 			</span>
@@ -180,11 +180,11 @@ span.var {
 				<span class="smaller badge INFO">INFO
 				</span>Statistics
 			</li>
-			<li>1 
+			<li>41 
 				<span class="smaller badge INFO">INFO
 				</span>Stops too close
 			</li>
-			<li>1 
+			<li>13 
 				<span class="smaller badge WARNING">WARNING
 				</span>Invalid route_short_name/route_long_name value
 			</li>
@@ -192,13 +192,13 @@ span.var {
 				<span class="smaller badge WARNING">WARNING
 				</span>No service exception
 			</li>
-			<li>25 
-				<span class="smaller badge ERROR">ERROR
+			<li>1 
+				<span class="smaller badge WARNING">WARNING
 				</span>Stop too far from shape
 			</li>
-			<li>1 
+			<li>6 
 				<span class="smaller badge ERROR">ERROR
-				</span>Too fast travel
+				</span>Stop too far from shape
 			</li>
 		</ul>
 		<h2>No service exception
@@ -232,37 +232,19 @@ span.var {
 					</td>
 					<td class="fieldname">
 					</td>
-					<td class="issue">Loaded 1 feed-info, 2 agencies, 14 routes, 421 stops, 1 calendars, 0 calendar dates, 27 trips, 787 stop times, 0 transfers, 0 pathways, 0 fare attributes, 0 fare rules
-					</td>
-				</tr>
-			</table>
-		</div>
-		<h2>Too fast travel
-			<span class="smaller"> - 1
-				<span class="badge ERROR">ERROR
-				</span>
-			</span>
-		</h2>
-		<div class="subcategory">
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">
-					</td>
-					<td class="issue">Too fast travel between stop <span class='id'>n8668423952</span> seq <span class='id'>15</span> @6:49:31 and stop <span class='id'>n8668423966</span> seq <span class='id'>16</span> @6:51:05 (distance <span class='var'>9816.86</span>m), in trip <span class='id'>r13500566_Mo-Su</span> of route <span class='id'>r13500567</span> <span class='var'>(null)</span>: <span class='var'>104.43</span> > <span class='var'>27.78</span> m/s
+					<td class="issue">Loaded 1 feed-info, 4 agencies, 252 routes, 2864 stops, 1 calendars, 0 calendar dates, 492 trips, 25847 stop times, 0 transfers, 0 pathways, 0 fare attributes, 0 fare rules
 					</td>
 				</tr>
 			</table>
 		</div>
 		<h2>routes.txt
-			<span class="smaller"> - 1
+			<span class="smaller"> - 13
 				<span class="badge WARNING">WARNING
 				</span>
 			</span>
 		</h2>
 		<ul>
-			<li>1
+			<li>13
 				<span class="smaller badge WARNING">WARNING
 				</span>Invalid route_short_name/route_long_name value
 			</li>
@@ -294,19 +276,175 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L12
+					<td class="linenr">L3
 					</td>
-					<td>r13500567
+					<td>r10831516
 					</td>
-					<td>Private Owners
+					<td>Mofussil Kochi bus
 					</td>
 					<td class="WARNING"/>
-					<td class="WARNING">Vyttila Mobility Hub ↔ Vyttila Mobility Hub
+					<td class="WARNING">High Court ↔ Nedungad
 					</td>
 					<td/>
 					<td>3
 					</td>
-					<td>https://jungle-bus.github.io/unroll/route.html?line=13500567
+					<td>https://jungle-bus.github.io/unroll/route.html?line=10831516
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L241
+					</td>
+					<td>r13791383
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">High Court ↔ Nedungad
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13791383
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / High Court ↔ Nedungad</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L4
+					</td>
+					<td>r10831517
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Manjanakad ↔ High Court
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=10831517
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L242
+					</td>
+					<td>r13791384
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Manjanakad ↔ High Court
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13791384
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Manjanakad ↔ High Court</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L38
+					</td>
+					<td>r13553738
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Aluva ↔ Cochinshipyard
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13553738
 					</td>
 					<td>008000
 					</td>
@@ -314,11 +452,713 @@ span.var {
 					</td>
 				</tr>
 				<tr>
-					<td class="linenr">L13
+					<td class="linenr">L131
 					</td>
-					<td>r13500673
+					<td>r13646546
 					</td>
-					<td>Private Owners
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Aluva ↔ Cochinshipyard
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13646546
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Aluva ↔ Cochinshipyard</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L98
+					</td>
+					<td>r13627037
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Chellanam ↔ Kaloor
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13627037
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L171
+					</td>
+					<td>r13674447
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Chellanam ↔ Kaloor
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13674447
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Chellanam ↔ Kaloor</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L106
+					</td>
+					<td>r13629393
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Aluva ↔ Thrippoonithura
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13629393
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L113
+					</td>
+					<td>r13641520
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Aluva ↔ Thrippoonithura
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13641520
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Aluva ↔ Thrippoonithura</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L109
+					</td>
+					<td>r13637925
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">North Paravur ↔ Kadamakkudy
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13637925
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L243
+					</td>
+					<td>r13791533
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">North Paravur ↔ Kadamakkudy
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13791533
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / North Paravur ↔ Kadamakkudy</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L115
+					</td>
+					<td>r13641967
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Kaloor ↔ Kumbalangi
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13641967
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L236
+					</td>
+					<td>r13781303
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Kaloor ↔ Kumbalangi
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13781303
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Kaloor ↔ Kumbalangi</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L127
+					</td>
+					<td>r13645172
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Thrippoonithura ↔ Infopark
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13645172
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L180
+					</td>
+					<td>r13676171
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Thrippoonithura ↔ Infopark
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13676171
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Thrippoonithura ↔ Infopark</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L137
+					</td>
+					<td>r13649914
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Chellanam ↔ Thoppumpady
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13649914
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L161
+					</td>
+					<td>r13672764
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Chellanam ↔ Thoppumpady
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13672764
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Chellanam ↔ Thoppumpady</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L174
+					</td>
+					<td>r13675635
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Thrippoonithura ↔ Medical college
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13675635
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L248
+					</td>
+					<td>r13792747
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Thrippoonithura ↔ Medical college
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13792747
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Thrippoonithura ↔ Medical college</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L202
+					</td>
+					<td>r13749933
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">High Court ↔ Njarakkal
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13749933
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L203
+					</td>
+					<td>r13749958
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">High Court ↔ Njarakkal
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13749958
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L204
+					</td>
+					<td>r13749971
+					</td>
+					<td>Mofussil Kochi bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">High Court ↔ Njarakkal
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13749971
+					</td>
+					<td>0000ff
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / High Court ↔ Njarakkal</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L212
+					</td>
+					<td>r13750380
+					</td>
+					<td>Kochi city bus
 					</td>
 					<td class="WARNING"/>
 					<td class="WARNING">Vyttila Mobility Hub ↔ Vyttila Mobility Hub
@@ -326,7 +1166,27 @@ span.var {
 					<td/>
 					<td>3
 					</td>
-					<td>https://jungle-bus.github.io/unroll/route.html?line=13500673
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13750380
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L213
+					</td>
+					<td>r13750469
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Vyttila Mobility Hub ↔ Vyttila Mobility Hub
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13750469
 					</td>
 					<td>008000
 					</td>
@@ -345,22 +1205,128 @@ span.var {
 				</tr>
 			</table>
 		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>route_id
+						</td>
+						<td>agency_id
+						</td>
+						<td>route_short_name
+						</td>
+						<td>route_long_name
+						</td>
+						<td>route_desc
+						</td>
+						<td>route_type
+						</td>
+						<td>route_url
+						</td>
+						<td>route_color
+						</td>
+						<td>route_text_color
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L233
+					</td>
+					<td>r13761992
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Cheranellore ↔ Thrippoonithura
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13761992
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L244
+					</td>
+					<td>r13791621
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Cheranellore ↔ Thrippoonithura
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13791621
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L245
+					</td>
+					<td>r13791696
+					</td>
+					<td>Kochi city bus
+					</td>
+					<td class="WARNING"/>
+					<td class="WARNING">Cheranellore ↔ Thrippoonithura
+					</td>
+					<td/>
+					<td>3
+					</td>
+					<td>https://jungle-bus.github.io/unroll/route.html?line=13791696
+					</td>
+					<td>008000
+					</td>
+					<td>ffffff
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity WARNING">WARNING
+					</td>
+					<td class="fieldname">route_long_name, route_short_name
+					</td>
+					<td class="issue">Invalid value <span class='var'>null / Cheranellore ↔ Thrippoonithura</span>: The same combination of route short and long name should not be used more than once
+					</td>
+				</tr>
+			</table>
+		</div>
 		<h2>stops.txt
-			<span class="smaller"> - 1
+			<span class="smaller"> - 41
 				<span class="badge INFO">INFO
 				</span>
 			</span>
-			<span class="smaller"> - 25
+			<span class="smaller"> - 1
+				<span class="badge WARNING">WARNING
+				</span>
+			</span>
+			<span class="smaller"> - 6
 				<span class="badge ERROR">ERROR
 				</span>
 			</span>
 		</h2>
 		<ul>
-			<li>1
+			<li>41
 				<span class="smaller badge INFO">INFO
 				</span>Stops too close
 			</li>
-			<li>25
+			<li>1
+				<span class="smaller badge WARNING">WARNING
+				</span>Stop too far from shape
+			</li>
+			<li>6
 				<span class="smaller badge ERROR">ERROR
 				</span>Stop too far from shape
 			</li>
@@ -398,17 +1364,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L10
+					<td class="linenr">L134
 					</td>
-					<td>n2580734253
-					</td>
-					<td/>
-					<td>Pipeline Junction
+					<td>n5757830255
 					</td>
 					<td/>
-					<td class="ERROR">10.0054933
+					<td>Pancode Junction
 					</td>
-					<td class="ERROR">76.312796
+					<td/>
+					<td class="INFO">10.0051031
+					</td>
+					<td class="INFO">76.4401241
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2725
+					</td>
+					<td>n9420519986
+					</td>
+					<td/>
+					<td>Pancode Junction
+					</td>
+					<td/>
+					<td class="INFO">10.0050588
+					</td>
+					<td class="INFO">76.440128
 					</td>
 					<td/>
 					<td/>
@@ -422,11 +1410,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>28</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4269.95m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>4.94m</span> away
 					</td>
 				</tr>
 			</table>
@@ -464,17 +1452,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L11
+					<td class="linenr">L218
 					</td>
-					<td>n2580734682
-					</td>
-					<td/>
-					<td>EMC
+					<td>n6043556589
 					</td>
 					<td/>
-					<td class="ERROR">9.999015
+					<td>Kunjattukara
 					</td>
-					<td class="ERROR">76.3140901
+					<td/>
+					<td class="INFO">10.0653647
+					</td>
+					<td class="INFO">76.3899502
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2053
+					</td>
+					<td>n9388069009
+					</td>
+					<td/>
+					<td>Kunjattukara
+					</td>
+					<td/>
+					<td class="INFO">10.0653755
+					</td>
+					<td class="INFO">76.3899759
 					</td>
 					<td/>
 					<td/>
@@ -488,11 +1498,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>31</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>3536.50m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.06m</span> away
 					</td>
 				</tr>
 			</table>
@@ -530,17 +1540,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L43
+					<td class="linenr">L257
 					</td>
-					<td>n5757830543
-					</td>
-					<td/>
-					<td>Pipeline Junction
+					<td>n7019490009
 					</td>
 					<td/>
-					<td class="ERROR">10.0048763
+					<td>Thayyezhuth Vazhi
 					</td>
-					<td class="ERROR">76.3132582
+					<td/>
+					<td class="INFO">10.0756155
+					</td>
+					<td class="INFO">76.211328
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L405
+					</td>
+					<td>n7294644885
+					</td>
+					<td/>
+					<td>Thayyezhuth Vazhi
+					</td>
+					<td/>
+					<td class="INFO">10.075576
+					</td>
+					<td class="INFO">76.2113115
 					</td>
 					<td/>
 					<td/>
@@ -554,11 +1586,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>30</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4191.60m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>4.75m</span> away
 					</td>
 				</tr>
 			</table>
@@ -596,17 +1628,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L44
+					<td class="linenr">L414
 					</td>
-					<td>n5757830551
-					</td>
-					<td/>
-					<td>Puthiya Road Bypass Junction
+					<td>n7452971120
 					</td>
 					<td/>
-					<td class="ERROR">9.9926588
+					<td>Thekke Kavala
 					</td>
-					<td class="ERROR">76.3151349
+					<td/>
+					<td class="INFO">10.021099
+					</td>
+					<td class="INFO">76.4480792
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2727
+					</td>
+					<td>n9420519988
+					</td>
+					<td/>
+					<td>Thekke Kavala
+					</td>
+					<td/>
+					<td class="INFO">10.0210576
+					</td>
+					<td class="INFO">76.448096
 					</td>
 					<td/>
 					<td/>
@@ -620,11 +1674,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>33</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>2823.55m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>4.96m</span> away
 					</td>
 				</tr>
 			</table>
@@ -662,17 +1716,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L188
+					<td class="linenr">L480
 					</td>
-					<td>n8463147704
-					</td>
-					<td/>
-					<td>Kaloor stadium
+					<td>n8383781719
 					</td>
 					<td/>
-					<td class="ERROR">10.0008769
+					<td>Kadamakkudy
 					</td>
-					<td class="ERROR">76.2994962
+					<td/>
+					<td class="INFO">10.0641882
+					</td>
+					<td class="INFO">76.246571
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2081
+					</td>
+					<td>n9394204438
+					</td>
+					<td/>
+					<td>Kadamakkudy
+					</td>
+					<td/>
+					<td class="INFO">10.0641665
+					</td>
+					<td class="INFO">76.2465927
 					</td>
 					<td/>
 					<td/>
@@ -686,11 +1762,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>24</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4386.46m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.39m</span> away
 					</td>
 				</tr>
 			</table>
@@ -728,7 +1804,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L190
+					<td class="linenr">L492
 					</td>
 					<td>n8463147707
 					</td>
@@ -736,9 +1812,9 @@ span.var {
 					<td>Mathrubhoomi
 					</td>
 					<td/>
-					<td class="ERROR">9.9970407
+					<td class="ERROR">9.9970327
 					</td>
-					<td class="ERROR">76.2946906
+					<td class="ERROR">76.2946244
 					</td>
 					<td/>
 					<td/>
@@ -756,7 +1832,7 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>22</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4378.48m</span> away
+					<td class="issue">Stop at sequence <span class='var'>32</span> on examplar trip <span class='id'>r13791694_Mo-Su</span> is too far from computed projection point <span class='var'>(9.998592,76.296617)</span> on shape <span class='id'>r13791694</span> (at arc-length <span class='var'>14962.03</span>m): <span class='var'>278.75m</span> away
 					</td>
 				</tr>
 			</table>
@@ -794,17 +1870,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L191
+					<td class="linenr">L519
 					</td>
-					<td>n8463147709
-					</td>
-					<td/>
-					<td>Kaloor
+					<td>n8466849111
 					</td>
 					<td/>
-					<td class="ERROR">9.9947299
+					<td>Thonniyakavu
 					</td>
-					<td class="ERROR">76.2916945
+					<td/>
+					<td class="INFO">10.1366945
+					</td>
+					<td class="INFO">76.2305237
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L520
+					</td>
+					<td>n8466849113
+					</td>
+					<td/>
+					<td>Thonniyakavu
+					</td>
+					<td/>
+					<td class="INFO">10.1366792
+					</td>
+					<td class="INFO">76.23055
 					</td>
 					<td/>
 					<td/>
@@ -818,11 +1916,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>21</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4432.28m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.34m</span> away
 					</td>
 				</tr>
 			</table>
@@ -860,337 +1958,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L195
-					</td>
-					<td>n8463175619
-					</td>
-					<td/>
-					<td>North Railway Station
-					</td>
-					<td/>
-					<td class="ERROR">9.9885607
-					</td>
-					<td class="ERROR">76.2859855
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>18</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4536.50m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L204
-					</td>
-					<td>n8668423966
-					</td>
-					<td/>
-					<td>Saritha
-					</td>
-					<td/>
-					<td class="ERROR">9.9850283
-					</td>
-					<td class="ERROR">76.2766416
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>16</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>5294.86m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L205
-					</td>
-					<td>n8668423968
-					</td>
-					<td/>
-					<td>Kacherpady
-					</td>
-					<td/>
-					<td class="ERROR">9.9874669
-					</td>
-					<td class="ERROR">76.2850828
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>17</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4563.84m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L227
-					</td>
-					<td>n9182595067
-					</td>
-					<td/>
-					<td>Deshabhimani
-					</td>
-					<td/>
-					<td class="ERROR">9.9985658
-					</td>
-					<td class="ERROR">76.2965364
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>23</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4373.58m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L228
-					</td>
-					<td>n9258708870
-					</td>
-					<td/>
-					<td>Chalikkavattom
-					</td>
-					<td/>
-					<td class="ERROR">9.9791637
-					</td>
-					<td class="ERROR">76.3173665
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-					<td/>
-					<td/>
-					<td>0
-					</td>
-				</tr>
-			</table>
-			<table class="issuelist">
-				<tr>
-					<td class="severity ERROR">ERROR
-					</td>
-					<td class="fieldname">stop_lat, stop_lon
-					</td>
-					<td class="issue">Stop at sequence <span class='var'>37</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>1320.20m</span> away
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="subcategory">
-			<table class="sourceinfo">
-				<thead>
-					<tr>
-						<td class="linenr">
-						</td>
-						<td>stop_id
-						</td>
-						<td>stop_code
-						</td>
-						<td>stop_name
-						</td>
-						<td>stop_desc
-						</td>
-						<td>stop_lat
-						</td>
-						<td>stop_lon
-						</td>
-						<td>zone_id
-						</td>
-						<td>stop_url
-						</td>
-						<td>location_type
-						</td>
-						<td>parent_station
-						</td>
-						<td>stop_timezone
-						</td>
-						<td>wheelchair_boarding
-						</td>
-					</tr>
-				</thead>
-				<tr>
-					<td class="linenr">L314
+					<td class="linenr">L769
 					</td>
 					<td>n9297193985
 					</td>
@@ -1212,7 +1980,7 @@ span.var {
 					</td>
 				</tr>
 				<tr>
-					<td class="linenr">L333
+					<td class="linenr">L787
 					</td>
 					<td>n9297289180
 					</td>
@@ -1278,7 +2046,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L336
+					<td class="linenr">L790
 					</td>
 					<td>n9300383987
 					</td>
@@ -1344,7 +2112,7 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L340
+					<td class="linenr">L794
 					</td>
 					<td>n9300384001
 					</td>
@@ -1410,17 +2178,17 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L341
+					<td class="linenr">L892
 					</td>
-					<td>n9300974346
-					</td>
-					<td/>
-					<td>Geethanjali Junction
+					<td>n9318077923
 					</td>
 					<td/>
-					<td class="ERROR">9.9842567
+					<td>Pump Junction
 					</td>
-					<td class="ERROR">76.3165873
+					<td/>
+					<td class="WARNING">10.1076107
+					</td>
+					<td class="WARNING">76.3601773
 					</td>
 					<td/>
 					<td/>
@@ -1434,11 +2202,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity WARNING">WARNING
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>36</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>1882.23m</span> away
+					<td class="issue">Stop at sequence <span class='var'>60</span> on examplar trip <span class='id'>r13793163_Mo-Su</span> is too far from computed projection point <span class='var'>(10.107726,76.359629)</span> on shape <span class='id'>r13793163</span> (at arc-length <span class='var'>28900.47</span>m): <span class='var'>61.38m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1476,17 +2244,17 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L342
+					<td class="linenr">L898
 					</td>
-					<td>n9300974347
-					</td>
-					<td/>
-					<td>Chakkaraparambu
+					<td>n9318964494
 					</td>
 					<td/>
-					<td class="ERROR">9.9892625
+					<td>Zeenath Junction
 					</td>
-					<td class="ERROR">76.3157384
+					<td/>
+					<td class="ERROR">10.1052287
+					</td>
+					<td class="ERROR">76.358531
 					</td>
 					<td/>
 					<td/>
@@ -1504,7 +2272,7 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>34</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>2441.96m</span> away
+					<td class="issue">Stop at sequence <span class='var'>62</span> on examplar trip <span class='id'>r13793163_Mo-Su</span> is too far from computed projection point <span class='var'>(10.107722,76.356925)</span> on shape <span class='id'>r13793163</span> (at arc-length <span class='var'>29199.45</span>m): <span class='var'>328.32m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1542,17 +2310,17 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L343
+					<td class="linenr">L1194
 					</td>
-					<td>n9300974350
-					</td>
-					<td/>
-					<td>Pipeline Junction
+					<td>n9333520225
 					</td>
 					<td/>
-					<td class="ERROR">10.0051253
+					<td>Model Technical School
 					</td>
-					<td class="ERROR">76.3128202
+					<td/>
+					<td class="ERROR">9.9962388
+					</td>
+					<td class="ERROR">76.2935137
 					</td>
 					<td/>
 					<td/>
@@ -1570,7 +2338,7 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>29</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4229.54m</span> away
+					<td class="issue">Stop at sequence <span class='var'>31</span> on examplar trip <span class='id'>r13791694_Mo-Su</span> is too far from computed projection point <span class='var'>(9.998592,76.296617)</span> on shape <span class='id'>r13791694</span> (at arc-length <span class='var'>14962.03</span>m): <span class='var'>428.94m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1608,17 +2376,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L344
+					<td class="linenr">L1397
 					</td>
-					<td>n9300974351
-					</td>
-					<td/>
-					<td>Pipeline Junction
+					<td>n9347272385
 					</td>
 					<td/>
-					<td class="ERROR">10.0048667
+					<td>Ambalapady
 					</td>
-					<td class="ERROR">76.3118824
+					<td/>
+					<td class="INFO">10.0671309
+					</td>
+					<td class="INFO">76.3377791
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1398
+					</td>
+					<td>n9347272386
+					</td>
+					<td/>
+					<td>Ambalapady
+					</td>
+					<td/>
+					<td class="INFO">10.0671742
+					</td>
+					<td class="INFO">76.3377687
 					</td>
 					<td/>
 					<td/>
@@ -1632,11 +2422,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>27</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4226.93m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>4.95m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1674,17 +2464,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L345
+					<td class="linenr">L1484
 					</td>
-					<td>n9300974353
-					</td>
-					<td/>
-					<td>Palarivattom
+					<td>n9351978088
 					</td>
 					<td/>
-					<td class="ERROR">10.0027024
+					<td>Appolo
 					</td>
-					<td class="ERROR">76.3063306
+					<td/>
+					<td class="INFO">10.0618342
+					</td>
+					<td class="INFO">76.3231064
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1485
+					</td>
+					<td>n9351978089
+					</td>
+					<td/>
+					<td>Appolo
+					</td>
+					<td/>
+					<td class="INFO">10.0618037
+					</td>
+					<td class="INFO">76.323091
 					</td>
 					<td/>
 					<td/>
@@ -1698,11 +2510,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>26</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4201.91m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.79m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1740,17 +2552,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L346
+					<td class="linenr">L1523
 					</td>
-					<td>n9300974354
-					</td>
-					<td/>
-					<td>Janatha
+					<td>n9352000249
 					</td>
 					<td/>
-					<td class="ERROR">10.0016273
+					<td>Eloor Depot Junction
 					</td>
-					<td class="ERROR">76.3024239
+					<td/>
+					<td class="INFO">10.0862077
+					</td>
+					<td class="INFO">76.2894375
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1524
+					</td>
+					<td>n9352000250
+					</td>
+					<td/>
+					<td>Eloor Depot Junction
+					</td>
+					<td/>
+					<td class="INFO">10.0862325
+					</td>
+					<td class="INFO">76.2894628
 					</td>
 					<td/>
 					<td/>
@@ -1764,11 +2598,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>25</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4288.20m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.91m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1806,17 +2640,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L348
+					<td class="linenr">L1575
 					</td>
-					<td>n9300974357
-					</td>
-					<td/>
-					<td>Manapattyparambu
+					<td>n9352457303
 					</td>
 					<td/>
-					<td class="ERROR">9.9922039
+					<td>Divine Hospital
 					</td>
-					<td class="ERROR">76.2891752
+					<td/>
+					<td class="INFO">10.1714489
+					</td>
+					<td class="INFO">76.3983548
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1576
+					</td>
+					<td>n9352457304
+					</td>
+					<td/>
+					<td>Divine Hospital
+					</td>
+					<td/>
+					<td class="INFO">10.1714073
+					</td>
+					<td class="INFO">76.3983625
 					</td>
 					<td/>
 					<td/>
@@ -1830,11 +2686,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>19</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4467.83m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>4.70m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1872,17 +2728,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L349
+					<td class="linenr">L1851
 					</td>
-					<td>n9300974358
-					</td>
-					<td/>
-					<td>Town Hall
+					<td>n9375627209
 					</td>
 					<td/>
-					<td class="ERROR">9.9911478
+					<td>Vettukadavu
 					</td>
-					<td class="ERROR">76.2879309
+					<td/>
+					<td class="INFO">10.0086091
+					</td>
+					<td class="INFO">76.2189071
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1852
+					</td>
+					<td>n9375627210
+					</td>
+					<td/>
+					<td>Vettukadavu
+					</td>
+					<td/>
+					<td class="INFO">10.0085816
+					</td>
+					<td class="INFO">76.2188995
 					</td>
 					<td/>
 					<td/>
@@ -1896,11 +2774,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>20</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>4510.06m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.17m</span> away
 					</td>
 				</tr>
 			</table>
@@ -1938,17 +2816,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L419
+					<td class="linenr">L1879
 					</td>
-					<td>n9310588324
-					</td>
-					<td/>
-					<td>Convent
+					<td>n9375635737
 					</td>
 					<td/>
-					<td class="ERROR">9.9966079
+					<td>Ayodhyapuram
 					</td>
-					<td class="ERROR">76.3145006
+					<td/>
+					<td class="INFO">9.9896043
+					</td>
+					<td class="INFO">76.2286864
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1880
+					</td>
+					<td>n9375635738
+					</td>
+					<td/>
+					<td>Ayodhyapuram
+					</td>
+					<td/>
+					<td class="INFO">9.9896196
+					</td>
+					<td class="INFO">76.2286553
 					</td>
 					<td/>
 					<td/>
@@ -1962,11 +2862,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>32</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>3265.95m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.81m</span> away
 					</td>
 				</tr>
 			</table>
@@ -2004,17 +2904,39 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L420
+					<td class="linenr">L1991
 					</td>
-					<td>n9310588325
-					</td>
-					<td/>
-					<td>Vaishali
+					<td>n9385633259
 					</td>
 					<td/>
-					<td class="ERROR">9.9875494
+					<td>Kolarikkal Kurishu Palli
 					</td>
-					<td class="ERROR">76.3160254
+					<td/>
+					<td class="INFO">10.0377546
+					</td>
+					<td class="INFO">76.2723698
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L1992
+					</td>
+					<td>n9385633260
+					</td>
+					<td/>
+					<td>Kolarikkal Kurishu Palli
+					</td>
+					<td/>
+					<td class="INFO">10.0377256
+					</td>
+					<td class="INFO">76.2723497
 					</td>
 					<td/>
 					<td/>
@@ -2028,11 +2950,11 @@ span.var {
 			</table>
 			<table class="issuelist">
 				<tr>
-					<td class="severity ERROR">ERROR
+					<td class="severity INFO">INFO
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>35</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>2250.26m</span> away
+					<td class="issue">Stops too close, they are <span class='var'>3.90m</span> away
 					</td>
 				</tr>
 			</table>
@@ -2070,17 +2992,1425 @@ span.var {
 					</tr>
 				</thead>
 				<tr>
-					<td class="linenr">L421
+					<td class="linenr">L2016
 					</td>
-					<td>n9310588327
-					</td>
-					<td/>
-					<td>Vyttila
+					<td>n9388068970
 					</td>
 					<td/>
-					<td class="ERROR">9.9702362
+					<td>Pallimugal
 					</td>
-					<td class="ERROR">76.3183837
+					<td/>
+					<td class="INFO">9.995793
+					</td>
+					<td class="INFO">76.3945467
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2017
+					</td>
+					<td>n9388068971
+					</td>
+					<td/>
+					<td>Pallimugal
+					</td>
+					<td/>
+					<td class="INFO">9.9957717
+					</td>
+					<td class="INFO">76.394508
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.85m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2086
+					</td>
+					<td>n9394204449
+					</td>
+					<td/>
+					<td>Semithery
+					</td>
+					<td/>
+					<td class="INFO">10.0688551
+					</td>
+					<td class="INFO">76.2685711
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2087
+					</td>
+					<td>n9394204450
+					</td>
+					<td/>
+					<td>Semithery
+					</td>
+					<td/>
+					<td class="INFO">10.068898
+					</td>
+					<td class="INFO">76.2685671
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.79m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2094
+					</td>
+					<td>n9394204463
+					</td>
+					<td/>
+					<td>Durga Devi Temple
+					</td>
+					<td/>
+					<td class="INFO">10.0755906
+					</td>
+					<td class="INFO">76.2695456
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2095
+					</td>
+					<td>n9394204464
+					</td>
+					<td/>
+					<td>Durga Devi Temple
+					</td>
+					<td/>
+					<td class="INFO">10.0756175
+					</td>
+					<td class="INFO">76.2695515
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>3.06m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2098
+					</td>
+					<td>n9394319527
+					</td>
+					<td/>
+					<td>Kottayil Kovilakam
+					</td>
+					<td/>
+					<td class="INFO">10.1685432
+					</td>
+					<td class="INFO">76.2502202
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2099
+					</td>
+					<td>n9394319528
+					</td>
+					<td/>
+					<td>Kottayil Kovilakam
+					</td>
+					<td/>
+					<td class="INFO">10.1685699
+					</td>
+					<td class="INFO">76.2501924
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.25m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2112
+					</td>
+					<td>n9394319541
+					</td>
+					<td/>
+					<td>Kottattal Bhagavathy Temple
+					</td>
+					<td/>
+					<td class="INFO">10.1701758
+					</td>
+					<td class="INFO">76.2410741
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2113
+					</td>
+					<td>n9394319542
+					</td>
+					<td/>
+					<td>Kottattal Bhagavathy Temple
+					</td>
+					<td/>
+					<td class="INFO">10.1702128
+					</td>
+					<td class="INFO">76.2410531
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.71m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2116
+					</td>
+					<td>n9394319545
+					</td>
+					<td/>
+					<td>Balamuruga Temple
+					</td>
+					<td/>
+					<td class="INFO">10.1709399
+					</td>
+					<td class="INFO">76.2366651
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2117
+					</td>
+					<td>n9394319546
+					</td>
+					<td/>
+					<td>Balamuruga Temple
+					</td>
+					<td/>
+					<td class="INFO">10.1709182
+					</td>
+					<td class="INFO">76.2367027
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.77m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2237
+					</td>
+					<td>n9398760112
+					</td>
+					<td/>
+					<td>Shalem School
+					</td>
+					<td/>
+					<td class="INFO">10.073408
+					</td>
+					<td class="INFO">76.4480679
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2238
+					</td>
+					<td>n9398760113
+					</td>
+					<td/>
+					<td>Shalem School
+					</td>
+					<td/>
+					<td class="INFO">10.0734482
+					</td>
+					<td class="INFO">76.4480799
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.66m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2350
+					</td>
+					<td>n9399445543
+					</td>
+					<td/>
+					<td>Vaylampad
+					</td>
+					<td/>
+					<td class="INFO">9.9813318
+					</td>
+					<td class="INFO">76.4277005
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2351
+					</td>
+					<td>n9399445544
+					</td>
+					<td/>
+					<td>Vaylampad
+					</td>
+					<td/>
+					<td class="INFO">9.981306
+					</td>
+					<td class="INFO">76.4276744
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.05m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2374
+					</td>
+					<td>n9399533727
+					</td>
+					<td/>
+					<td>Canal Pady
+					</td>
+					<td/>
+					<td class="INFO">9.9883571
+					</td>
+					<td class="INFO">76.4237072
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2375
+					</td>
+					<td>n9399533728
+					</td>
+					<td/>
+					<td>Canal Pady
+					</td>
+					<td/>
+					<td class="INFO">9.9883549
+					</td>
+					<td class="INFO">76.423669
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.19m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2386
+					</td>
+					<td>n9401980497
+					</td>
+					<td/>
+					<td>Karayogam
+					</td>
+					<td/>
+					<td class="INFO">9.9591666
+					</td>
+					<td class="INFO">76.3018063
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2387
+					</td>
+					<td>n9401980498
+					</td>
+					<td/>
+					<td>Karayogam
+					</td>
+					<td/>
+					<td class="INFO">9.9591309
+					</td>
+					<td class="INFO">76.301798
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.07m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2388
+					</td>
+					<td>n9401980499
+					</td>
+					<td/>
+					<td>Kizhupillupady
+					</td>
+					<td/>
+					<td class="INFO">9.9565965
+					</td>
+					<td class="INFO">76.3022808
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2389
+					</td>
+					<td>n9401980500
+					</td>
+					<td/>
+					<td>Kizhupillupady
+					</td>
+					<td/>
+					<td class="INFO">9.9565621
+					</td>
+					<td class="INFO">76.3022647
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.21m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2390
+					</td>
+					<td>n9401980501
+					</td>
+					<td/>
+					<td>Puthiya Road
+					</td>
+					<td/>
+					<td class="INFO">9.954305
+					</td>
+					<td class="INFO">76.3023884
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2391
+					</td>
+					<td>n9401980502
+					</td>
+					<td/>
+					<td>Puthiya Road
+					</td>
+					<td/>
+					<td class="INFO">9.9542826
+					</td>
+					<td class="INFO">76.3023723
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>3.05m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2392
+					</td>
+					<td>n9401980503
+					</td>
+					<td/>
+					<td>Yuvajana Samajam
+					</td>
+					<td/>
+					<td class="INFO">9.9525607
+					</td>
+					<td class="INFO">76.3026546
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2393
+					</td>
+					<td>n9401980504
+					</td>
+					<td/>
+					<td>Yuvajana Samajam
+					</td>
+					<td/>
+					<td class="INFO">9.952528
+					</td>
+					<td class="INFO">76.3026365
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.14m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2394
+					</td>
+					<td>n9401980505
+					</td>
+					<td/>
+					<td>St Joseph School
+					</td>
+					<td/>
+					<td class="INFO">9.9509994
+					</td>
+					<td class="INFO">76.3031139
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2395
+					</td>
+					<td>n9401980506
+					</td>
+					<td/>
+					<td>St Joseph School
+					</td>
+					<td/>
+					<td class="INFO">9.9509812
+					</td>
+					<td class="INFO">76.3030962
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>2.80m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2414
+					</td>
+					<td>n9402200490
+					</td>
+					<td/>
+					<td>Vykkol Mukku
+					</td>
+					<td/>
+					<td class="INFO">10.0392186
+					</td>
+					<td class="INFO">76.3507161
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2415
+					</td>
+					<td>n9402200491
+					</td>
+					<td/>
+					<td>Vykkol Mukku
+					</td>
+					<td/>
+					<td class="INFO">10.0392575
+					</td>
+					<td class="INFO">76.350708
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.42m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2457
+					</td>
+					<td>n9407476247
+					</td>
+					<td/>
+					<td>Kumbalam North
+					</td>
+					<td/>
+					<td class="INFO">9.9198043
+					</td>
+					<td class="INFO">76.3051442
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2458
+					</td>
+					<td>n9407476248
+					</td>
+					<td/>
+					<td>Kumbalam North
+					</td>
+					<td/>
+					<td class="INFO">9.9198148
+					</td>
+					<td class="INFO">76.3051232
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>2.58m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2489
+					</td>
+					<td>n9415046627
+					</td>
+					<td/>
+					<td>St Francis Church
+					</td>
+					<td/>
+					<td class="ERROR">9.9863659
+					</td>
+					<td class="ERROR">76.2959062
 					</td>
 					<td/>
 					<td/>
@@ -2098,12 +4428,980 @@ span.var {
 					</td>
 					<td class="fieldname">stop_lat, stop_lon
 					</td>
-					<td class="issue">Stop at sequence <span class='var'>38</span> on examplar trip <span class='id'>r13500566_Mo-Su</span> is too far from computed projection point <span class='var'>(9.968142,76.321848)</span> on shape <span class='id'>r13500566</span> (at arc-length <span class='var'>18706.49</span>m): <span class='var'>445.19m</span> away
+					<td class="issue">Stop at sequence <span class='var'>27</span> on examplar trip <span class='id'>r13791694_Mo-Su</span> is too far from computed projection point <span class='var'>(9.988311,76.295462)</span> on shape <span class='id'>r13791694</span> (at arc-length <span class='var'>13471.11</span>m): <span class='var'>221.74m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2555
+					</td>
+					<td>n9418181840
+					</td>
+					<td/>
+					<td>Nandikulangara Junction
+					</td>
+					<td/>
+					<td class="INFO">10.1453344
+					</td>
+					<td class="INFO">76.2464719
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2556
+					</td>
+					<td>n9418181841
+					</td>
+					<td/>
+					<td>Nandikulangara Junction
+					</td>
+					<td/>
+					<td class="INFO">10.1453283
+					</td>
+					<td class="INFO">76.2464354
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.05m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2557
+					</td>
+					<td>n9418181842
+					</td>
+					<td/>
+					<td>SNDP
+					</td>
+					<td/>
+					<td class="INFO">10.1428769
+					</td>
+					<td class="INFO">76.2471997
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2558
+					</td>
+					<td>n9418181843
+					</td>
+					<td/>
+					<td>SNDP
+					</td>
+					<td/>
+					<td class="INFO">10.142851
+					</td>
+					<td class="INFO">76.2471723
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.16m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2569
+					</td>
+					<td>n9418181854
+					</td>
+					<td/>
+					<td>Ration Kada
+					</td>
+					<td/>
+					<td class="INFO">10.1355928
+					</td>
+					<td class="INFO">76.2579892
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2570
+					</td>
+					<td>n9418181855
+					</td>
+					<td/>
+					<td>Ration Kada
+					</td>
+					<td/>
+					<td class="INFO">10.1355776
+					</td>
+					<td class="INFO">76.2579836
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>1.80m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2595
+					</td>
+					<td>n9418314943
+					</td>
+					<td/>
+					<td>Pallithodu
+					</td>
+					<td/>
+					<td class="INFO">9.7710552
+					</td>
+					<td class="INFO">76.2814719
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2596
+					</td>
+					<td>n9418314944
+					</td>
+					<td/>
+					<td>Pallithodu
+					</td>
+					<td/>
+					<td class="INFO">9.771025
+					</td>
+					<td class="INFO">76.2814444
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.51m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2615
+					</td>
+					<td>n9418765503
+					</td>
+					<td/>
+					<td>Karuna
+					</td>
+					<td/>
+					<td class="INFO">10.0661059
+					</td>
+					<td class="INFO">76.2795903
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2616
+					</td>
+					<td>n9418765504
+					</td>
+					<td/>
+					<td>Karuna
+					</td>
+					<td/>
+					<td class="INFO">10.0660722
+					</td>
+					<td class="INFO">76.2796104
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.35m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2671
+					</td>
+					<td>n9420201853
+					</td>
+					<td/>
+					<td>Police Station
+					</td>
+					<td/>
+					<td class="INFO">10.1526147
+					</td>
+					<td class="INFO">76.3398506
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2672
+					</td>
+					<td>n9420201854
+					</td>
+					<td/>
+					<td>Police Station
+					</td>
+					<td/>
+					<td class="INFO">10.1526488
+					</td>
+					<td class="INFO">76.339837
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.07m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2703
+					</td>
+					<td>n9420364728
+					</td>
+					<td/>
+					<td>Colony
+					</td>
+					<td/>
+					<td class="INFO">9.929752
+					</td>
+					<td class="INFO">76.3006589
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2704
+					</td>
+					<td>n9420364729
+					</td>
+					<td/>
+					<td>Colony
+					</td>
+					<td/>
+					<td class="INFO">9.9297283
+					</td>
+					<td class="INFO">76.3006387
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>3.44m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2720
+					</td>
+					<td>n9420519981
+					</td>
+					<td/>
+					<td>Parappuram
+					</td>
+					<td/>
+					<td class="INFO">10.0136452
+					</td>
+					<td class="INFO">76.433609
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2721
+					</td>
+					<td>n9420519982
+					</td>
+					<td/>
+					<td>Parappuram
+					</td>
+					<td/>
+					<td class="INFO">10.0136308
+					</td>
+					<td class="INFO">76.4335755
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.00m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2749
+					</td>
+					<td>n9447183052
+					</td>
+					<td/>
+					<td>Ghandhi Nagar Junction
+					</td>
+					<td/>
+					<td class="INFO">9.977475
+					</td>
+					<td class="INFO">76.2943192
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2750
+					</td>
+					<td>n9447183053
+					</td>
+					<td/>
+					<td>Ghandhi Nagar Junction
+					</td>
+					<td/>
+					<td class="INFO">9.9774775
+					</td>
+					<td class="INFO">76.2942747
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.88m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2781
+					</td>
+					<td>n9468204412
+					</td>
+					<td/>
+					<td>Arakkadavu Junction
+					</td>
+					<td/>
+					<td class="INFO">9.9922857
+					</td>
+					<td class="INFO">76.3273564
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2782
+					</td>
+					<td>n9468204413
+					</td>
+					<td/>
+					<td>Arakkadavu Junction
+					</td>
+					<td/>
+					<td class="INFO">9.992256
+					</td>
+					<td class="INFO">76.3273256
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>4.72m</span> away
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="subcategory">
+			<table class="sourceinfo">
+				<thead>
+					<tr>
+						<td class="linenr">
+						</td>
+						<td>stop_id
+						</td>
+						<td>stop_code
+						</td>
+						<td>stop_name
+						</td>
+						<td>stop_desc
+						</td>
+						<td>stop_lat
+						</td>
+						<td>stop_lon
+						</td>
+						<td>zone_id
+						</td>
+						<td>stop_url
+						</td>
+						<td>location_type
+						</td>
+						<td>parent_station
+						</td>
+						<td>stop_timezone
+						</td>
+						<td>wheelchair_boarding
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td class="linenr">L2818
+					</td>
+					<td>n9480591870
+					</td>
+					<td/>
+					<td>Akaparambu
+					</td>
+					<td/>
+					<td class="INFO">10.1590874
+					</td>
+					<td class="INFO">76.380761
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+				<tr>
+					<td class="linenr">L2819
+					</td>
+					<td>n9480591871
+					</td>
+					<td/>
+					<td>Akaparambu
+					</td>
+					<td/>
+					<td class="INFO">10.1590915
+					</td>
+					<td class="INFO">76.3807443
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+					<td/>
+					<td/>
+					<td>0
+					</td>
+				</tr>
+			</table>
+			<table class="issuelist">
+				<tr>
+					<td class="severity INFO">INFO
+					</td>
+					<td class="fieldname">stop_lat, stop_lon
+					</td>
+					<td class="issue">Stops too close, they are <span class='var'>1.88m</span> away
 					</td>
 				</tr>
 			</table>
 		</div>
 		<hr/>
-		<p class="comments">Validation done at Thu Dec 16 02:34:54 UTC 2021 by GTFSVTOR - Copyright (c) 2021 Mecatran
+		<p class="comments">Validation done at Fri Feb 18 16:06:48 UTC 2022 by GTFSVTOR - Copyright (c) 2022 Mecatran
 		</p>
 	</head>

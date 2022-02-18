@@ -1,15 +1,253 @@
 line_id,name,code,colour,operator,network,mode
 r10831465,Vypin ↔ Fort Kochi (Ro Ro),,,KSWTD,Kochi city boat,ferry
-r10831516,Nedungad ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
-r10831518,N Paravur ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
-r12759113,Munambam ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r10831516,High Court ↔ Nedungad,,,Private Owners,Mofussil Kochi bus,bus
+r10831517,Manjanakad ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r10831518,North Paravur ↔ High Court (via Vypin),,,Private Owners,Mofussil Kochi bus,bus
+r12759113,Munambam ↔ High Court (via Vypin),,,Private Owners,Mofussil Kochi bus,bus
+r13374892,North Paravur ↔ Kottuvally South (via Athani),,,Private Owners,Mofussil Kochi bus,bus
+r13374893,North Paravur ↔ Munambam,,,Private Owners,Mofussil Kochi bus,bus
 r13478965,North Paravur ↔ Ezhikkara,,,Private Owners,Mofussil Kochi bus,bus
 r13489073,Fort Kochi ↔ Edakochi,,,Private Owners,Kochi city bus,bus
 r13497147,High Court ↔ Panambukad (Vallarpadam),,,Private Owners,Mofussil Kochi bus,bus
 r13498566,Ernakulam ↔ Vypin,,,KSWTD,Kochi city boat,ferry
 r13498742,Ernakulam ↔ Fort Kochi,,,KSWTD,Kochi city boat,ferry
 r13498857,Ernakulam ↔ Fort Kochi via Wellington Island,,,KSWTD,Kochi city boat,ferry
-r13500567,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
-r13500673,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
+r13500567,Vyttila Mobility Hub ↔ Vyttila Mobility Hub (clockwise),,,Private Owners,Kochi city bus,bus
+r13500673,Vyttila Mobility Hub ↔ Vyttila Mobility Hub (anti-clockwise),,,Private Owners,Kochi city bus,bus
 r13500936,Fort Kochi ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
-r13510567,Aluva ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13510567,Aluva ↔ Fort Kochi via Menaka,,,Private Owners,Kochi city bus,bus
+r13526775,Aluva ↔ North Paravur,,,Private Owners,Mofussil Kochi bus,bus
+r13531471,Aluva ↔ Perumbavoor (via Rajagiri),,,Private Owners,Mofussil Kochi bus,bus
+r13531919,Ankamaly ↔ Perumbavoor,,,Private Owners,Mofussil Kochi bus,bus
+r13531974,Ankamaly ↔ Kalady,,,Private Owners,Mofussil Kochi bus,bus
+r13534968,Aluva ↔ Perumpadappu,,,Private Owners,Kochi city bus,bus
+r13535512,Fort Kochi ↔ Wellington Island,,,Private Owners,Kochi city bus,bus
+r13539090,Aluva ↔ Wellington Island,,,Private Owners,Kochi city bus,bus
+r13544303,Aluva ↔ Chellanam,,,Private Owners,Kochi city bus,bus
+r13544888,Fort Kochi ↔ Kakkanad (via Menaka),,,Private Owners,Kochi city bus,bus
+r13545124,Aluva ↔ Thoppumpady via Menaka,,,Private Owners,Kochi city bus,bus
+r13546166,Mattancherry ↔ Edakochi,,,Private Owners,Kochi city bus,bus
+r13546546,Kakkanad ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13548914,Kaloor ↔ North Paravur,,,Private Owners,Mofussil Kochi bus,bus
+r13549451,Aluva ↔ Fort Kochi via Padma,,,Private Owners,Kochi city bus,bus
+r13551368,Ankamaly ↔ North Paravur,,,Private Owners,Mofussil Kochi bus,bus
+r13551491,Cheranellore ↔ Mattancherry (via Chittoor),,,Private Owners,Kochi city bus,bus
+r13552378,Chittortemple ↔ Mattancherry,,,Private Owners,Kochi city bus,bus
+r13553060,Aluva ↔ Mattancherry via Padma,,,Private Owners,Kochi city bus,bus
+r13553068,North Paravur ↔ Vyttila (via Koonammavu),,,Private Owners,Mofussil Kochi bus,bus
+r13553738,Aluva ↔ Cochinshipyard,,,Private Owners,Kochi city bus,bus
+r13555115,Aluva ↔ Elavoor,,,Private Owners,Mofussil Kochi bus,bus
+r13556486,Aluva ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13557270,Chittortemple ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13561115,Kakkanad ↔ Perumpadappu (via Menaka),,,Private Owners,Kochi city bus,bus
+r13561410,Aluva ↔ Varapuzha (via Kodungalloor),,,Private Owners,Mofussil Kochi bus,bus
+r13561807,Cheranellore ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13562297,Mattancherry ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13562583,Aluva ↔ Ernakulam South,,,Private Owners,Kochi city bus,bus
+r13562613,Aluva ↔ Thevara (via NAD and Padma),,,Private Owners,Kochi city bus,bus
+r13562704,Fort Kochi ↔ Perumpadappu,,,Private Owners,Kochi city bus,bus
+r13562782,Aluva ↔ Mattancherry via Menaka,,,Private Owners,Kochi city bus,bus
+r13563616,Cheranellore ↔ Fort Kochi (via Menaka),,,Private Owners,Kochi city bus,bus
+r13563806,Aluva ↔ Konthuruthy,,,Private Owners,Kochi city bus,bus
+r13568407,Chittoor Temple ↔ Edakochi,,,Private Owners,Kochi city bus,bus
+r13570055,Chellanam ↔ Vyttila,,,Private Owners,Mofussil Kochi bus,bus
+r13570067,Aluva ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13570075,Wellington Island ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13570706,Eloor ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13571046,Chittortemple ↔ Panangad,,,Private Owners,Kochi city bus,bus
+r13571066,Cheranellore ↔ Panangad,,,Private Owners,Kochi city bus,bus
+r13571179,Puthukkalavattom ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13571525,Aluva ↔ Ankamaly,,,Private Owners,Mofussil Kochi bus,bus
+r13573162,Aluva ↔ Panangad,,,Private Owners,Kochi city bus,bus
+r13574912,Edakochi ↔ Kakkanad,,,Private Owners,Kochi city bus,bus
+r13575127,Kakkanad ↔ Panangad,,,Private Owners,Kochi city bus,bus
+r13575547,Eloor ↔ Mattancherry,,,Private Owners,Kochi city bus,bus
+r13577501,Kaloor ↔ Poothotta,,,Private Owners,Kochi city bus,bus
+r13586170,Kaloor ↔ Poothotta (via Kathrikadvu Road),,,Private Owners,Mofussil Kochi bus,bus
+r13589067,Aluva ↔ Poothotta,,,Private Owners,Kochi city bus,bus
+r13590426,Aluva ↔ Chottanikara,,,Private Owners,Kochi city bus,bus
+r13590488,Aluva ↔ Eloor,,,Private Owners,Kochi city bus,bus
+r13594889,Aluva ↔ Wellington Island (via NAD and Padma),,,Private Owners,Kochi city bus,bus
+r13595088,Aluva ↔ Thoppumpady via Padma,,,Private Owners,Kochi city bus,bus
+r13600778,Edakochi ↔ Ponekkara,,,Private Owners,Kochi city bus,bus
+r13601640,Aluva ↔ Kalamassery,,,Private Owners,Mofussil Kochi bus,bus
+r13606652,Kumbalangi ↔ Ponekkara,,,Private Owners,Kochi city bus,bus
+r13606821,Mattancherry ↔ Ponekkara,,,Private Owners,Kochi city bus,bus
+r13606906,Thrippoonithura ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
+r13606972,Aluva ↔ Keezhmadu,,,Private Owners,Mofussil Kochi bus,bus
+r13609456,High Court ↔ Njarakkal (via Light House),,,Private Owners,Mofussil Kochi bus,bus
+r13610212,High Court ↔ Poothotta,,,Private Owners,Kochi city bus,bus
+r13610332,Kakkanad ↔ Konthuruthy,,,Private Owners,Kochi city bus,bus
+r13610565,Cheranelloor ↔ Perumpadappu,,,Private Owners,Kochi city bus,bus
+r13610651,Cheranelloor ↔ Kadavanthra,,,Private Owners,Kochi city bus,bus
+r13610769,Cheranelloor ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r13611748,Chellanam ↔ Cheranellore,,,Private Owners,Kochi city bus,bus
+r13612020,Aluva ↔ Kalady (via Puthiyedam),,,Private Owners,Mofussil Kochi bus,bus
+r13612174,Eloor ↔ Ernakulam Jetty,,,Private Owners,Kochi city bus,bus
+r13616539,Kadamakkudy ↔ Vyttila Mobility Hub,,,Private Owners,Mofussil Kochi bus,bus
+r13616622,High Court ↔ Mulavukad,,,Private Owners,Mofussil Kochi bus,bus
+r13617326,Chittoor Temple ↔ Chottanikara,,,Private Owners,Kochi city bus,bus
+r13617406,Perumpadappu ↔ Amritha Hospital,,,Private Owners,Kochi city bus,bus
+r13619058,Chittoor Ferry ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13619115,Aluva ↔ Thevara (via Menaka),,,Private Owners,Kochi city bus,bus
+r13626159,High Court ↔ Pukkad,,,Private Owners,Mofussil Kochi bus,bus
+r13626314,Chittoor Ferry ↔ Mattancherry,,,Private Owners,Kochi city bus,bus
+r13626336,Fort Kochi ↔ Kaloor,,,Private Owners,Kochi city bus,bus
+r13626947,Chittoor Ferry ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13627018,Fort Kochi ↔ Ponekkara,,,Private Owners,Kochi city bus,bus
+r13627037,Chellanam ↔ Kaloor,,,Private Owners,Kochi city bus,bus
+r13627109,Chittoor Temple ↔ Perumpadappu,,,Private Owners,Kochi city bus,bus
+r13627138,Cheranelloor ↔ Edakochi,,,Private Owners,Kochi city bus,bus
+r13628936,High Court ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13629035,Chittoor Ferry ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13629056,Fort Kochi ↔ Palluruthy,,,Private Owners,Kochi city bus,bus
+r13629057,North Paravur ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r13629058,Munambam ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r13629393,Aluva ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13635071,Cheranellore ↔ Fort Kochi (via Padma),,,Private Owners,Kochi city bus,bus
+r13637600,North Paravur ↔ Vyttila (via Kottuvalli),,,Private Owners,Mofussil Kochi bus,bus
+r13637925,North Paravur ↔ Kadamakkudy,,,Private Owners,Mofussil Kochi bus,bus
+r13638090,North Paravur ↔ Kottayil Kovilakam,,,Private Owners,Mofussil Kochi bus,bus
+r13638179,High Court ↔ Appangad,,,Private Owners,Mofussil Kochi bus,bus
+r13641243,Cheranelloor ↔ Mundamveli,,,Private Owners,Kochi city bus,bus
+r13641520,Aluva ↔ Thrippoonithura,,,Private Owners,Mofussil Kochi bus,bus
+r13641805,Aluva ↔ Perumbavoor (via Kizhakambalam and Kadalikunnu),,,Private Owners,Mofussil Kochi bus,bus
+r13641967,Kaloor ↔ Kumbalangi,,,Private Owners,Mofussil Kochi bus,bus
+r13642113,Kakkanad ↔ Ernakulam South,,,Private Owners,Kochi city bus,bus
+r13642226,Ponekkara ↔ Ernakulam Boat Jetty,,,Private Owners,Kochi city bus,bus
+r13642293,Kaloor ↔ Panangad,,,Private Owners,Kochi city bus,bus
+r13642446,Aluva ↔ Karimugal,,,Private Owners,Mofussil Kochi bus,bus
+r13642666,Aluva ↔ Edayar,,,Private Owners,Mofussil Kochi bus,bus
+r13642737,Vyttila ↔ Varapuzha,,,Private Owners,Mofussil Kochi bus,bus
+r13644289,Cheranelloor ↔ Thevara Ferry (via Chittor and Menaka),,,Private Owners,Kochi city bus,bus
+r13644321,Chittoor ↔ Thevara Ferry,,,Private Owners,Kochi city bus,bus
+r13644432,Ponekkara ↔ Thevara Ferry,,,Private Owners,Kochi city bus,bus
+r13644659,Kakkanad ↔ Perumbavoor,,,Private Owners,Mofussil Kochi bus,bus
+r13644836,Kakkanad ↔ Thrippoonithura,,,Private Owners,Mofussil Kochi bus,bus
+r13645172,Thrippoonithura ↔ Infopark,,,Private Owners,Mofussil Kochi bus,bus
+r13645287,Aluva ↔ Puthencruz (via Pazhamthottam),,,Private Owners,Mofussil Kochi bus,bus
+r13645363,Aluva ↔ Puthencruz (via Poothanamparambu),,,Private Owners,Mofussil Kochi bus,bus
+r13645795,North Paravur ↔ Kottuvally South (via Kalikulangara),,,Private Owners,Mofussil Kochi bus,bus
+r13646546,Aluva ↔ Cochinshipyard,,,Private Owners,Mofussil Kochi bus,bus
+r13648803,Chittoor ↔ Kochu Kadavanthara,,,Private Owners,Kochi city bus,bus
+r13648844,Thrippoonithura ↔ Perumbavoor (via Kizhakkambalam),,,Private Owners,Mofussil Kochi bus,bus
+r13649197,Mattancherry ↔ Pukkattupady,,,Private Owners,Kochi city bus,bus
+r13649217,Fort Kochi ↔ Pukkattupady,,,Private Owners,Kochi city bus,bus
+r13649242,Kakkanad ↔ Mattancherry,,,Private Owners,Kochi city bus,bus
+r13649914,Chellanam ↔ Thoppumpady,,,Private Owners,Kochi city bus,bus
+r13653991,Ponekkara ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13656366,Chittethukara ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13656569,Kakkanad ↔ Wellington Island,,,Private Owners,Kochi city bus,bus
+r13656692,Eloor ↔ Kadavanthra,,,Private Owners,Kochi city bus,bus
+r13656752,Eloor ↔ Wellington Island,,,Private Owners,Kochi city bus,bus
+r13657023,Eloor ↔ Kumbalam,,,Private Owners,Kochi city bus,bus
+r13657357,Aluva ↔ Manjali (via Athani),,,Private Owners,Mofussil Kochi bus,bus
+r13663933,North Paravur ↔ Perumbavoor,,,Private Owners,Mofussil Kochi bus,bus
+r13667682,Chottanikkara ↔ Kothad Ferry,,,Private Owners,Kochi city bus,bus
+r13668802,Chittoor Temple ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13669763,Kakkanad ↔ Perumpadappu (via Padma),,,Private Owners,Kochi city bus,bus
+r13669818,Ernakulam South ↔ North Paravur,,,Private Owners,Mofussil Kochi bus,bus
+r13669870,Perumpadappu ↔ Chittoor Ferry,,,Private Owners,Kochi city bus,bus
+r13670060,Perumpadappu ↔ Kaloor,,,Private Owners,Kochi city bus,bus
+r13671522,Thevara Ferry ↔ Kakkanad,,,Private Owners,Kochi city bus,bus
+r13671533,Eloor Dippo ↔ Thevara ferry,,,Private Owners,Kochi city bus,bus
+r13671558,Chellanam ↔ Chittoor,,,Private Owners,Kochi city bus,bus
+r13671857,Cheranellore ↔ Mattancherry (via Edapally Bypass),,,Private Owners,Kochi city bus,bus
+r13672029,Aluva ↔ Varapuzha (via via UC College and Alangad),,,Private Owners,Mofussil Kochi bus,bus
+r13672401,Fort Kochi ↔ Thuthiyoor,,,Private Owners,Kochi city bus,bus
+r13672568,Cheranelloor ↔ Puthiakavu,,,Private Owners,Kochi city bus,bus
+r13672587,Thevara ↔ Thuthiyoor,,,Private Owners,Kochi city bus,bus
+r13672630,Aluva ↔ Pathalam,,,Private Owners,Mofussil Kochi bus,bus
+r13672764,Chellanam ↔ Thoppumpady,,,Private Owners,Mofussil Kochi bus,bus
+r13673125,Thrippoonithura ↔ Thoppumpady,,,Private Owners,Mofussil Kochi bus,bus
+r13673203,Kaloor ↔ Gonduparambu,,,Private Owners,Mofussil Kochi bus,bus
+r13673315,Munambam ↔ Thathapilly,,,Private Owners,Mofussil Kochi bus,bus
+r13673318,Fort Kochi ↔ Methanam (Eloor North),,,Private Owners,Kochi city bus,bus
+r13673330,North Paravur ↔ Thathappilly,,,Private Owners,Mofussil Kochi bus,bus
+r13673356,Edappally ↔ Vyttila,,,Private Owners,Mofussil Kochi bus,bus
+r13673475,Pallithode ↔ Thoppumpady,,,Private Owners,Mofussil Kochi bus,bus
+r13673497,High court ↔ Poothotta,,,Private Owners,Mofussil Kochi bus,bus
+r13674025,North Paravur ↔ Chennur,,,Private Owners,Mofussil Kochi bus,bus
+r13674447,Chellanam ↔ Kaloor,,,Private Owners,Mofussil Kochi bus,bus
+r13675465,Aluva ↔ Aluva,,,Private Owners,Mofussil Kochi bus,bus
+r13675601,Mannamthurth ↔ Munambam,,,Private Owners,Mofussil Kochi bus,bus
+r13675635,Thrippoonithura ↔ Medical college,,,Private Owners,Kochi city bus,bus
+r13675715,Fort Kochi ↔ Medical college,,,Private Owners,Kochi city bus,bus
+r13675765,Fort Kochi ↔ Edachira,,,Private Owners,Kochi city bus,bus
+r13675842,Fort Kochi ↔ KMP Nagar,,,Private Owners,Kochi city bus,bus
+r13675967,Chittoor Temple ↔ Chottanikkara,,,Private Owners,Mofussil Kochi bus,bus
+r13676122,Aluva ↔ Manjali (via Puthuvassery),,,Private Owners,Mofussil Kochi bus,bus
+r13676171,Thrippoonithura ↔ Infopark,,,Private Owners,Kochi city bus,bus
+r13676349,Thevara Ferry ↔ Elamakkara,,,Private Owners,Kochi city bus,bus
+r13676385,Cheranelloor ↔ Thevara Ferry (via Elamakkara and Menaka),,,Private Owners,Kochi city bus,bus
+r13676418,Kothad Ferry ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13676422,Chittoor Ferry ↔ Kumbalam,,,Private Owners,Mofussil Kochi bus,bus
+r13676487,Thrippoonithura ↔ Perumbavoor (via Pattimattom),,,Private Owners,Mofussil Kochi bus,bus
+r13676537,Fort Kochi ↔ Kakkanad (via Padma),,,Private Owners,Kochi city bus,bus
+r13677217,Munambam ↔ Ankamaly,,,Private Owners,Mofussil Kochi bus,bus
+r13678268,North Paravur ↔ Panangad,,,Private Owners,Mofussil Kochi bus,bus
+r13679145,Munambam ↔ Kottuvally South,,,Private Owners,Mofussil Kochi bus,bus
+r13679265,Munambam ↔ Cheranellore,,,Private Owners,Mofussil Kochi bus,bus
+r13679626,Aluva ↔ Kothad Ferry,,,Private Owners,Mofussil Kochi bus,bus
+r13689658,Aluva ↔ Vyttila Mobility Hub,,,Private Owners,Mofussil Kochi bus,bus
+r13691656,Cherai ↔ Ernakulam Boat Jetty,,,KSRTC,Ordinary bus,bus
+r13718237,Kaloor ↔ Poothotta (via Padma),,,Private Owners,Mofussil Kochi bus,bus
+r13718887,Fort Kochi ↔ Puthukkalavattom,,,Private Owners,Kochi city bus,bus
+r13718986,Poothotta ↔ Puthukkalavattom,,,Private Owners,Mofussil Kochi bus,bus
+r13719331,Chottanikkara ↔ Puthukkalavattom,,,Private Owners,Kochi city bus,bus
+r13724742,Cheranellore ↔ Thrippoonithura (via Maradu),,,Private Owners,Kochi city bus,bus
+r13725408,Perumbavoor ↔ Thevara,,,Private Owners,Mofussil Kochi bus,bus
+r13725470,Chellanam ↔ Methanam,,,Private Owners,Kochi city bus,bus
+r13725518,Chittethukara ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13749933,High Court ↔ Njarakkal,,,Private Owners,Mofussil Kochi bus,bus
+r13749958,High Court ↔ Njarakkal,,,Private Owners,Mofussil Kochi bus,bus
+r13749971,High Court ↔ Njarakkal,,,Private Owners,Mofussil Kochi bus,bus
+r13750047,Aluva ↔ Ernakulam South (via Menaka),,,Private Owners,Kochi city bus,bus
+r13750103,Aluva ↔ Wellington Island (via Menaka),,,Private Owners,Kochi city bus,bus
+r13750121,Aluva ↔ Chittoorferry,,,Private Owners,Mofussil Kochi bus,bus
+r13750132,Chittoor Temple ↔ Thevara,,,Private Owners,Kochi city bus,bus
+r13750190,Eloor ↔ Poothotta,,,Private Owners,Kochi city bus,bus
+r13750199,Chellanam ↔ High Court,,,Private Owners,Kochi city bus,bus
+r13750240,Eloor ferry ↔ Gandhinagar,,,Private Owners,Kochi city bus,bus
+r13750380,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
+r13750469,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,,,Private Owners,Kochi city bus,bus
+r13750488,Aluva ↔ Edakochi,,,Private Owners,Kochi city bus,bus
+r13750598,Thrippoonithura ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13750640,Chottanikkara ↔ Elamakkara,,,Private Owners,Kochi city bus,bus
+r13750694,Kakkanad ↔ North Paravur,,,Private Owners,Mofussil Kochi bus,bus
+r13754397,Edakochi ↔ Thuthiyoor,,,Private Owners,Kochi city bus,bus
+r13755059,Thuthiyoor ↔ Pambayimoola,,,Private Owners,Kochi city bus,bus
+r13755126,Kothad Church ↔ Kundannoor,,,Private Owners,Kochi city bus,bus
+r13755241,Kundannoor ↔ Kundannoor,,,Private Owners,Kochi city bus,bus
+r13755265,Aluva ↔ Palluruthy,,,Private Owners,Kochi city bus,bus
+r13755297,Thrippoonithura ↔ Puthencruz,,,Private Owners,Mofussil Kochi bus,bus
+r13755381,Kadavanthra ↔ Kadavanthra,,,Private Owners,Kochi city bus,bus
+r13755423,Thevara Ferry ↔ Kakkanad CEPZ,,,Private Owners,Kochi city bus,bus
+r13758565,Chittethukara ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13758647,Kakkanad ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13758901,Fort Kochi ↔ Palarivattom,,,Private Owners,Kochi city bus,bus
+r13758931,Chellanam ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13761899,Cheranellore ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13761930,Chellanam ↔ Palarivattom,,,Private Owners,Kochi city bus,bus
+r13761960,Thrippoonithura ↔ Wellington Island,,,Private Owners,Mofussil Kochi bus,bus
+r13761992,Cheranellore ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13762115,Aluva ↔ Kalady,,,Private Owners,Mofussil Kochi bus,bus
+r13775320,Chottanikkara ↔ Kaloor,,,Private Owners,Kochi city bus,bus
+r13781303,Kaloor ↔ Kumbalangi,,,Private Owners,Kochi city bus,bus
+r13781430,Kaloor ↔ Pukkattupady,,,Private Owners,Mofussil Kochi bus,bus
+r13781463,Ernakulam South ↔ Perumbavoor,,,Private Owners,Mofussil Kochi bus,bus
+r13781491,Kaloor ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13781528,Aluva ↔ Kaloor,,,Private Owners,Mofussil Kochi bus,bus
+r13791383,High Court ↔ Nedungad,,,Private Owners,Mofussil Kochi bus,bus
+r13791384,Manjanakad ↔ High Court,,,Private Owners,Mofussil Kochi bus,bus
+r13791533,North Paravur ↔ Kadamakkudy,,,Private Owners,Mofussil Kochi bus,bus
+r13791621,Cheranellore ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13791696,Cheranellore ↔ Thrippoonithura,,,Private Owners,Kochi city bus,bus
+r13791758,Cheranellore ↔ Fort Kochi,,,Private Owners,Kochi city bus,bus
+r13792383,Eroor ↔ Eroor,,,Private Owners,Kochi city bus,bus
+r13792747,Thrippoonithura ↔ Medical college,,,Private Owners,Kochi city bus,bus
+r13792775,Kozhivettumveli ↔ Kozhivettumveli,,,Private Owners,Kochi city bus,bus
+r13792894,Aluva ↔ Chathamma,,,Private Owners,Kochi city bus,bus
+r13792943,Kakkanad ↔ Manakkakadavu,,,Private Owners,Mofussil Kochi bus,bus
+r13793165,Aluva ↔ Illichuvadu Junction,,,Private Owners,Kochi city bus,bus
+r13796243,North Paravur ↔ Vypin,,,Private Owners,Mofussil Kochi bus,bus

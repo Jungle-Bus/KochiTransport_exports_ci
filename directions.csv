@@ -1,8 +1,8 @@
 line_id,route_id,line_name,route_name,direction
 r10831465,r10524210,Vypin ↔ Fort Kochi (Ro Ro),Ro Ro: Vypin → Fort Kochi,unknown
 r10831465,r10524211,Vypin ↔ Fort Kochi (Ro Ro),Ro Ro: Fort Kochi → Vypin,unknown
-r10831516,r10525436,High Court ↔ Nedungad,High Court → Nedungad,forward
-r10831516,r10525435,High Court ↔ Nedungad,Nedungad → High Court,backward
+r10831516,r10525436,High Court ↔ Nedungad (via Vypin),High Court → Nedungad (via Vypin),forward
+r10831516,r10525435,High Court ↔ Nedungad (via Vypin),Nedungad → High Court,unknown
 r10831517,r10524079,Manjanakad ↔ High Court,Manjanakad → High Court,forward
 r10831517,r10524080,Manjanakad ↔ High Court,High Court → Manjanakad,backward
 r10831518,r10523910,North Paravur ↔ High Court (via Vypin),High Court → Vypin → North Paravur,unknown
@@ -25,8 +25,8 @@ r13498742,r13498741,Ernakulam ↔ Fort Kochi,Ernakulam → Fort Kochi,forward
 r13498742,r13498740,Ernakulam ↔ Fort Kochi,Fort Kochi → Ernakulam,backward
 r13498857,r13498856,Ernakulam ↔ Fort Kochi via Wellington Island,Ernakulam → Fort Kochi via Wellington Island,forward
 r13498857,r13498855,Ernakulam ↔ Fort Kochi via Wellington Island,Fort Kochi → Ernakulam via Wellington Island,unknown
-r13500567,r13500566,Vyttila Mobility Hub ↔ Vyttila Mobility Hub (clockwise),Vyttila Mobility Hub → Vyttila Mobility Hub,unknown
-r13500673,r13500672,Vyttila Mobility Hub ↔ Vyttila Mobility Hub (anti-clockwise),Vyttila Mobility Hub → Thamannam → Palarivattom → Vyttila Mobility Hub,unknown
+r13500567,r13500566,"Vyttila Mobility Hub ↔ Vyttila Mobility Hub (clockwise, via Kadavanthra and Palarivattam bypass)",Vyttila Mobility Hub → Vyttila Mobility Hub,unknown
+r13500673,r13500672,"Vyttila Mobility Hub ↔ Vyttila Mobility Hub (anti-clockwise, via Thamannam and Kadavanthara)",Vyttila Mobility Hub → Thamannam → Palarivattom → Vyttila Mobility Hub,unknown
 r13500936,r13500934,Fort Kochi ↔ Kumbalangi,Fort Kochi → Kumbalangi,forward
 r13500936,r13500935,Fort Kochi ↔ Kumbalangi,Kumbalangi → Fort Kochi,backward
 r13510567,r13510566,Aluva ↔ Fort Kochi via Menaka,Aluva → Fort Kochi,unknown
@@ -150,8 +150,8 @@ r13606906,r13606905,Thrippoonithura ↔ Vyttila Mobility Hub,Thrippoonithura →
 r13606906,r13606904,Thrippoonithura ↔ Vyttila Mobility Hub,Vyttila Mobility Hub → Thrippoonithura,backward
 r13606972,r13606970,Aluva ↔ Keezhmadu,Aluva → Keezhmadu,forward
 r13606972,r13606971,Aluva ↔ Keezhmadu,Keezhmadu → Aluva,backward
-r13609456,r13609455,High Court ↔ Njarakkal (via Light House),High Court → Njarakkal,unknown
-r13609456,r13609454,High Court ↔ Njarakkal (via Light House),Njarakkal → High Court,unknown
+r13609456,r13609455,High Court ↔ Njarakkal (via Vypin and Light House),High Court → Njarakkal,unknown
+r13609456,r13609454,High Court ↔ Njarakkal (via Vypin and Light House),Njarakkal → High Court,unknown
 r13610212,r13610211,High Court ↔ Poothotta,High Court → Poothotta,forward
 r13610212,r13610210,High Court ↔ Poothotta,Poothotta → High Court,backward
 r13610332,r13610330,Kakkanad ↔ Konthuruthy,Kakkanad → Konthuruthy,forward
@@ -341,8 +341,8 @@ r13674447,r13674445,Chellanam ↔ Kaloor,Kaloor → Chellanam,backward
 r13675465,r13675464,Aluva ↔ Aluva,Aluva → Aluva,forward
 r13675601,r13675600,Mannamthurth ↔ Munambam,Mannamthurth → Munambam,forward
 r13675601,r13675599,Mannamthurth ↔ Munambam,Munambam → Mannamthurth,backward
-r13675635,r13675633,Thrippoonithura ↔ Medical college,Medical college → Thrippoonithura,backward
-r13675635,r13675634,Thrippoonithura ↔ Medical college,Thrippoonithura → Medical college,forward
+r13675635,r13675633,Thrippoonithura ↔ Medical college (via Menaka),Medical college → Thrippoonithura,unknown
+r13675635,r13675634,Thrippoonithura ↔ Medical college (via Menaka),Thrippoonithura → Medical college,unknown
 r13675715,r13675714,Fort Kochi ↔ Medical college,Fort Kochi → Medical college,forward
 r13675715,r13675713,Fort Kochi ↔ Medical college,Medical college → Fort Kochi,backward
 r13675765,r13675763,Fort Kochi ↔ Edachira,Edachira → Fort Kochi,backward
@@ -397,12 +397,12 @@ r13725470,r13725469,Chellanam ↔ Methanam,Chellanam → Methanam,forward
 r13725470,r13725468,Chellanam ↔ Methanam,Methanam → Chellanam,backward
 r13725518,r13725517,Chittethukara ↔ Thevara,Chittethukara → Thevara,forward
 r13725518,r13725516,Chittethukara ↔ Thevara,Thevara → Chittethukara,backward
-r13749933,r13749932,High Court ↔ Njarakkal,High Court → Njarakkal,forward
-r13749933,r13749931,High Court ↔ Njarakkal,Njarakkal → High Court,backward
+r13749933,r13749932,High Court ↔ Njarakkal (via Light House),High Court → Njarakkal,unknown
+r13749933,r13749931,High Court ↔ Njarakkal (via Light House),Njarakkal → High Court,unknown
 r13749958,r13749957,High Court ↔ Njarakkal,High Court → Njarakkal,forward
 r13749958,r13749956,High Court ↔ Njarakkal,Njarakkal → High Court,backward
-r13749971,r13749970,High Court ↔ Njarakkal,High Court → Njarakkal,forward
-r13749971,r13749969,High Court ↔ Njarakkal,Njarakkal → High Court,backward
+r13749971,r13749970,High Court ↔ Njarakkal (via Vypin),High Court → Njarakkal,unknown
+r13749971,r13749969,High Court ↔ Njarakkal (via Vypin),Njarakkal → High Court,unknown
 r13750047,r13750046,Aluva ↔ Ernakulam South (via Menaka),Aluva → Ernakulam South,unknown
 r13750047,r13750045,Aluva ↔ Ernakulam South (via Menaka),Ernakulam South → Aluva,unknown
 r13750103,r13750102,Aluva ↔ Wellington Island (via Menaka),Aluva → Wellington Island,unknown
@@ -417,8 +417,8 @@ r13750199,r13750198,Chellanam ↔ High Court,Chellanam → High Court,forward
 r13750199,r13750197,Chellanam ↔ High Court,High Court → Chellanam,backward
 r13750240,r13750239,Eloor ferry ↔ Gandhinagar,Eloor ferry → Gandhinagar,forward
 r13750240,r13750238,Eloor ferry ↔ Gandhinagar,Gandhinagar → Eloor ferry,backward
-r13750380,r13750379,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,Vyttila Mobility Hub → Vyttila Mobility Hub,forward
-r13750469,r13750468,Vyttila Mobility Hub ↔ Vyttila Mobility Hub,Vyttila Mobility Hub → Vyttila Mobility Hub,forward
+r13750380,r13750379,"Vyttila Mobility Hub ↔ Vyttila Mobility Hub (anti-clockwise, via Palarivattom Bypass, Kadavanthara)",Vyttila Mobility Hub → Vyttila Mobility Hub,unknown
+r13750469,r13750468,"Vyttila Mobility Hub ↔ Vyttila Mobility Hub (clockwise, via Kadavanthara and Thamannam)",Vyttila Mobility Hub → Vyttila Mobility Hub,unknown
 r13750488,r13750487,Aluva ↔ Edakochi,Aluva → Edakochi,forward
 r13750488,r13750486,Aluva ↔ Edakochi,Edakochi → Aluva,backward
 r13750598,r13750597,Thrippoonithura ↔ Thrippoonithura,Thrippoonithura → Thrippoonithura,forward
@@ -469,19 +469,19 @@ r13781491,r13781489,Kaloor ↔ Thrippoonithura,Thrippoonithura → Kaloor,backwa
 r13781528,r13781527,Aluva ↔ Kaloor,Kaloor → Aluva,backward
 r13791383,r13791379,High Court ↔ Nedungad,High Court → Nedungad,forward
 r13791383,r13791380,High Court ↔ Nedungad,Nedungad → High Court,backward
-r13791384,r13791381,Manjanakad ↔ High Court,High Court → Manjanakad,backward
-r13791384,r13791382,Manjanakad ↔ High Court,Manjanakad → High Court,forward
-r13791533,r13791531,North Paravur ↔ Kadamakkudy,Kadamakkudy → North Paravur,backward
-r13791533,r13791532,North Paravur ↔ Kadamakkudy,North Paravur → Kadamakkudy,forward
-r13791621,r13791620,Cheranellore ↔ Thrippoonithura,Cheranellore → Thrippoonithura,forward
-r13791621,r13791619,Cheranellore ↔ Thrippoonithura,Thrippoonithura → Cheranellore,backward
-r13791696,r13791695,Cheranellore ↔ Thrippoonithura,Cheranellore → Thrippoonithura,forward
-r13791696,r13791694,Cheranellore ↔ Thrippoonithura,Thrippoonithura → Cheranellore,backward
+r13791384,r13791381,Manjanakad ↔ High Court (via Vypin),High Court → Manjanakad,unknown
+r13791384,r13791382,Manjanakad ↔ High Court (via Vypin),Manjanakad → High Court,unknown
+r13791533,r13791531,North Paravur ↔ Kadamakkudy (via Pizhalakadavu),Kadamakkudy → North Paravur,unknown
+r13791533,r13791532,North Paravur ↔ Kadamakkudy (via Pizhalakadavu),North Paravur → Kadamakkudy,unknown
+r13791621,r13791620,Cheranellore ↔ Thrippoonithura (via Pipeline),Cheranellore → Thrippoonithura,unknown
+r13791621,r13791619,Cheranellore ↔ Thrippoonithura (via Pipeline),Thrippoonithura → Cheranellore,unknown
+r13791696,r13791695,Cheranellore ↔ Thrippoonithura (via KK Road),Cheranellore → Thrippoonithura,unknown
+r13791696,r13791694,Cheranellore ↔ Thrippoonithura (via KK Road),Thrippoonithura → Cheranellore,unknown
 r13791758,r13791757,Cheranellore ↔ Fort Kochi,Cheranellore → Fort Kochi,forward
 r13791758,r13791756,Cheranellore ↔ Fort Kochi,Fort Kochi → Cheranellore,backward
 r13792383,r13792382,Eroor ↔ Eroor,Eroor → Eroor,forward
-r13792747,r13792745,Thrippoonithura ↔ Medical college,Medical college → Thrippoonithura,backward
-r13792747,r13792746,Thrippoonithura ↔ Medical college,Thrippoonithura → Medical college,forward
+r13792747,r13792745,Thrippoonithura ↔ Medical college (via Bypass),Medical college → Thrippoonithura,unknown
+r13792747,r13792746,Thrippoonithura ↔ Medical college (via Bypass),Thrippoonithura → Medical college,unknown
 r13792775,r13792774,Kozhivettumveli ↔ Kozhivettumveli,Kozhivettumveli → Kozhivettumveli,forward
 r13792894,r13792893,Aluva ↔ Chathamma,Aluva → Chathamma,forward
 r13792894,r13792892,Aluva ↔ Chathamma,Chathamma → Aluva,backward
@@ -491,3 +491,23 @@ r13793165,r13793164,Aluva ↔ Illichuvadu Junction,Aluva → Illichuvadu Junctio
 r13793165,r13793163,Aluva ↔ Illichuvadu Junction,Illichuvadu Junction → Aluva,backward
 r13796243,r13796241,North Paravur ↔ Vypin,Vypin → North Paravur,backward
 r13796243,r13796242,North Paravur ↔ Vypin,North Paravur → Vypin,forward
+r13810977,r13810975,Thevara ↔ Pukkattupady,Pukkattupady → Thevara,backward
+r13810977,r13810976,Thevara ↔ Pukkattupady,Thevara → Pukkattupady,forward
+r13812889,r13812888,Ernakulam Boat Jetty ↔ Pizhala,Ernakulam Boat Jetty → Pizhala,forward
+r13812889,r13812887,Ernakulam Boat Jetty ↔ Pizhala,Pizhala → Ernakulam Boat Jetty,backward
+r13813338,r13813336,Aluva ↔ Thrippoonithura,Thrippoonithura → Aluva,backward
+r13813338,r13813337,Aluva ↔ Thrippoonithura,Aluva → Thrippoonithura,forward
+r13818643,r13818642,Piravom ↔ Vyttila,Piravom → Vyttila,forward
+r13818643,r13818641,Piravom ↔ Vyttila,Vyttila → Piravom,backward
+r13825414,r13825412,High Court ↔ Appangad,Appangad → High Court,backward
+r13825414,r13825413,High Court ↔ Appangad,High Court → Appangad,forward
+r13825425,r13825423,Vyttila ↔ Gonduparambu,Gonduparambu → Vyttila,backward
+r13825425,r13825424,Vyttila ↔ Gonduparambu,Vyttila → Gonduparambu,forward
+r13825502,r13825501,Perumbavoor ↔ Thevara Ferry,Perumbavoor → Thevara Ferry,forward
+r13825502,r13825500,Perumbavoor ↔ Thevara Ferry,Thevara Ferry → Perumbavoor,backward
+r13825517,r13825515,Chettibhagam ↔ Kadamakudy,Chettibhagam → Kadamakudy,forward
+r13825517,r13825516,Chettibhagam ↔ Kadamakudy,Kadamakudy → Chettibhagam,backward
+r13825522,r13825520,Chettibhagam ↔ North Paravur,Chettibhagam → North Paravur,forward
+r13825522,r13825521,Chettibhagam ↔ North Paravur,North Paravur → Chettibhagam,backward
+r13825532,r13825531,Chettibhagam ↔ Pizhalakkadavu,Chettibhagam → Pizhalakkadavu,forward
+r13825532,r13825530,Chettibhagam ↔ Pizhalakkadavu,Pizhalakkadavu → Chettibhagam,backward

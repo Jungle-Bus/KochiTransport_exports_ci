@@ -6,7 +6,6 @@ Missing way 1012555381 details (to create shape for r13555114 route)
 OSM QA : the geometry of the route r13562781 is not a linestring. Check from 363214996 way.
 OSM QA : the geometry of the route r13573160 is not a linestring. Check from 363214996 way.
 OSM QA : the geometry of the route r13575545 is not a linestring. Check from 363214996 way.
-OSM QA : the geometry of the route r13594887 is not a linestring. Check from 363214996 way.
 OSM QA : the geometry of the route r13595087 is not a linestring. Check from 363214996 way.
 OSM QA : the geometry of the route r13619113 is not a linestring. Check from 363214996 way.
 OSM QA : the geometry of the route r13656690 is not a linestring. Check from 363214996 way.
@@ -41,6 +40,12 @@ OSM QA : Missing travel duration (duration tag) on OSM route r10592288
 OSM QA : Missing opening_hours on OSM line r12759113 or OSM route r10592287
 OSM QA : Missing frequency (interval tag) on OSM line r12759113 or OSM route r10592287
 OSM QA : Missing travel duration (duration tag) on OSM route r10592287
+OSM QA : Missing opening_hours on OSM line r12759289 or OSM route r12740709
+OSM QA : Missing frequency (interval tag) on OSM line r12759289 or OSM route r12740709
+OSM QA : Missing travel duration (duration tag) on OSM route r12740709
+OSM QA : Missing opening_hours on OSM line r12759289 or OSM route r12759262
+OSM QA : Missing frequency (interval tag) on OSM line r12759289 or OSM route r12759262
+OSM QA : Missing travel duration (duration tag) on OSM route r12759262
 OSM QA : Missing opening_hours on OSM line r13374892 or OSM route r12376735
 OSM QA : Missing frequency (interval tag) on OSM line r13374892 or OSM route r12376735
 OSM QA : Missing travel duration (duration tag) on OSM route r12376735
@@ -1545,3 +1550,267 @@ OSM QA : Missing travel duration (duration tag) on OSM route r13825531
 OSM QA : Missing opening_hours on OSM line r13825532 or OSM route r13825530
 OSM QA : Missing frequency (interval tag) on OSM line r13825532 or OSM route r13825530
 OSM QA : Missing travel duration (duration tag) on OSM route r13825530
+OSM QA : Missing opening_hours on OSM line r13834627 or OSM route r13834625
+OSM QA : Missing frequency (interval tag) on OSM line r13834627 or OSM route r13834625
+OSM QA : Missing travel duration (duration tag) on OSM route r13834625
+OSM QA : Missing opening_hours on OSM line r13834627 or OSM route r13834626
+OSM QA : Missing frequency (interval tag) on OSM line r13834627 or OSM route r13834626
+OSM QA : Missing travel duration (duration tag) on OSM route r13834626
+OSM QA : Missing opening_hours on OSM line r13834680 or OSM route r13834678
+OSM QA : Missing frequency (interval tag) on OSM line r13834680 or OSM route r13834678
+OSM QA : Missing travel duration (duration tag) on OSM route r13834678
+OSM QA : Missing opening_hours on OSM line r13834680 or OSM route r13834679
+OSM QA : Missing frequency (interval tag) on OSM line r13834680 or OSM route r13834679
+OSM QA : Missing travel duration (duration tag) on OSM route r13834679
+OSM QA : Missing opening_hours on OSM line r13834697 or OSM route r13834695
+OSM QA : Missing frequency (interval tag) on OSM line r13834697 or OSM route r13834695
+OSM QA : Missing travel duration (duration tag) on OSM route r13834695
+OSM QA : Missing opening_hours on OSM line r13834697 or OSM route r13834696
+OSM QA : Missing frequency (interval tag) on OSM line r13834697 or OSM route r13834696
+OSM QA : Missing travel duration (duration tag) on OSM route r13834696
+OSM QA : Missing opening_hours on OSM line r13834709 or OSM route r13834707
+OSM QA : Missing frequency (interval tag) on OSM line r13834709 or OSM route r13834707
+OSM QA : Missing travel duration (duration tag) on OSM route r13834707
+OSM QA : Missing opening_hours on OSM line r13834709 or OSM route r13834708
+OSM QA : Missing frequency (interval tag) on OSM line r13834709 or OSM route r13834708
+OSM QA : Missing travel duration (duration tag) on OSM route r13834708
+OSM QA : Missing opening_hours on OSM line r13834767 or OSM route r13834765
+OSM QA : Missing frequency (interval tag) on OSM line r13834767 or OSM route r13834765
+OSM QA : Missing travel duration (duration tag) on OSM route r13834765
+OSM QA : Missing opening_hours on OSM line r13834767 or OSM route r13834766
+OSM QA : Missing frequency (interval tag) on OSM line r13834767 or OSM route r13834766
+OSM QA : Missing travel duration (duration tag) on OSM route r13834766
+OSM QA : Missing opening_hours on OSM line r13834780 or OSM route r13834778
+OSM QA : Missing frequency (interval tag) on OSM line r13834780 or OSM route r13834778
+OSM QA : Missing travel duration (duration tag) on OSM route r13834778
+OSM QA : Missing opening_hours on OSM line r13834780 or OSM route r13834779
+OSM QA : Missing frequency (interval tag) on OSM line r13834780 or OSM route r13834779
+OSM QA : Missing travel duration (duration tag) on OSM route r13834779
+OSM QA : Missing opening_hours on OSM line r13834820 or OSM route r13834818
+OSM QA : Missing frequency (interval tag) on OSM line r13834820 or OSM route r13834818
+OSM QA : Missing travel duration (duration tag) on OSM route r13834818
+OSM QA : Missing opening_hours on OSM line r13834820 or OSM route r13834819
+OSM QA : Missing frequency (interval tag) on OSM line r13834820 or OSM route r13834819
+OSM QA : Missing travel duration (duration tag) on OSM route r13834819
+OSM QA : Missing opening_hours on OSM line r13834840 or OSM route r13834838
+OSM QA : Missing frequency (interval tag) on OSM line r13834840 or OSM route r13834838
+OSM QA : Missing travel duration (duration tag) on OSM route r13834838
+OSM QA : Missing opening_hours on OSM line r13834840 or OSM route r13834839
+OSM QA : Missing frequency (interval tag) on OSM line r13834840 or OSM route r13834839
+OSM QA : Missing travel duration (duration tag) on OSM route r13834839
+OSM QA : Missing opening_hours on OSM line r13834852 or OSM route r13834850
+OSM QA : Missing frequency (interval tag) on OSM line r13834852 or OSM route r13834850
+OSM QA : Missing travel duration (duration tag) on OSM route r13834850
+OSM QA : Missing opening_hours on OSM line r13834852 or OSM route r13834851
+OSM QA : Missing frequency (interval tag) on OSM line r13834852 or OSM route r13834851
+OSM QA : Missing travel duration (duration tag) on OSM route r13834851
+OSM QA : Missing opening_hours on OSM line r13835426 or OSM route r13835425
+OSM QA : Missing frequency (interval tag) on OSM line r13835426 or OSM route r13835425
+OSM QA : Missing travel duration (duration tag) on OSM route r13835425
+OSM QA : Missing opening_hours on OSM line r13835426 or OSM route r13835424
+OSM QA : Missing frequency (interval tag) on OSM line r13835426 or OSM route r13835424
+OSM QA : Missing travel duration (duration tag) on OSM route r13835424
+OSM QA : Missing opening_hours on OSM line r13835478 or OSM route r13835476
+OSM QA : Missing frequency (interval tag) on OSM line r13835478 or OSM route r13835476
+OSM QA : Missing travel duration (duration tag) on OSM route r13835476
+OSM QA : Missing opening_hours on OSM line r13835478 or OSM route r13835477
+OSM QA : Missing frequency (interval tag) on OSM line r13835478 or OSM route r13835477
+OSM QA : Missing travel duration (duration tag) on OSM route r13835477
+OSM QA : Missing opening_hours on OSM line r13835644 or OSM route r13835642
+OSM QA : Missing frequency (interval tag) on OSM line r13835644 or OSM route r13835642
+OSM QA : Missing travel duration (duration tag) on OSM route r13835642
+OSM QA : Missing opening_hours on OSM line r13835644 or OSM route r13835643
+OSM QA : Missing frequency (interval tag) on OSM line r13835644 or OSM route r13835643
+OSM QA : Missing travel duration (duration tag) on OSM route r13835643
+OSM QA : Missing opening_hours on OSM line r13835657 or OSM route r13835655
+OSM QA : Missing frequency (interval tag) on OSM line r13835657 or OSM route r13835655
+OSM QA : Missing travel duration (duration tag) on OSM route r13835655
+OSM QA : Missing opening_hours on OSM line r13835657 or OSM route r13835656
+OSM QA : Missing frequency (interval tag) on OSM line r13835657 or OSM route r13835656
+OSM QA : Missing travel duration (duration tag) on OSM route r13835656
+OSM QA : Missing opening_hours on OSM line r13837312 or OSM route r13837311
+OSM QA : Missing frequency (interval tag) on OSM line r13837312 or OSM route r13837311
+OSM QA : Missing travel duration (duration tag) on OSM route r13837311
+OSM QA : Missing opening_hours on OSM line r13837312 or OSM route r13837310
+OSM QA : Missing frequency (interval tag) on OSM line r13837312 or OSM route r13837310
+OSM QA : Missing travel duration (duration tag) on OSM route r13837310
+OSM QA : Missing opening_hours on OSM line r13837374 or OSM route r13837372
+OSM QA : Missing frequency (interval tag) on OSM line r13837374 or OSM route r13837372
+OSM QA : Missing travel duration (duration tag) on OSM route r13837372
+OSM QA : Missing opening_hours on OSM line r13837374 or OSM route r13837373
+OSM QA : Missing frequency (interval tag) on OSM line r13837374 or OSM route r13837373
+OSM QA : Missing travel duration (duration tag) on OSM route r13837373
+OSM QA : Missing opening_hours on OSM line r13837511 or OSM route r13837509
+OSM QA : Missing frequency (interval tag) on OSM line r13837511 or OSM route r13837509
+OSM QA : Missing travel duration (duration tag) on OSM route r13837509
+OSM QA : Missing opening_hours on OSM line r13837511 or OSM route r13837510
+OSM QA : Missing frequency (interval tag) on OSM line r13837511 or OSM route r13837510
+OSM QA : Missing travel duration (duration tag) on OSM route r13837510
+OSM QA : Missing opening_hours on OSM line r13837569 or OSM route r13837567
+OSM QA : Missing frequency (interval tag) on OSM line r13837569 or OSM route r13837567
+OSM QA : Missing travel duration (duration tag) on OSM route r13837567
+OSM QA : Missing opening_hours on OSM line r13837569 or OSM route r13837568
+OSM QA : Missing frequency (interval tag) on OSM line r13837569 or OSM route r13837568
+OSM QA : Missing travel duration (duration tag) on OSM route r13837568
+OSM QA : Missing opening_hours on OSM line r13837630 or OSM route r13837628
+OSM QA : Missing frequency (interval tag) on OSM line r13837630 or OSM route r13837628
+OSM QA : Missing travel duration (duration tag) on OSM route r13837628
+OSM QA : Missing opening_hours on OSM line r13837630 or OSM route r13837629
+OSM QA : Missing frequency (interval tag) on OSM line r13837630 or OSM route r13837629
+OSM QA : Missing travel duration (duration tag) on OSM route r13837629
+OSM QA : Missing opening_hours on OSM line r13837791 or OSM route r13837789
+OSM QA : Missing frequency (interval tag) on OSM line r13837791 or OSM route r13837789
+OSM QA : Missing travel duration (duration tag) on OSM route r13837789
+OSM QA : Missing opening_hours on OSM line r13837791 or OSM route r13837790
+OSM QA : Missing frequency (interval tag) on OSM line r13837791 or OSM route r13837790
+OSM QA : Missing travel duration (duration tag) on OSM route r13837790
+OSM QA : Missing opening_hours on OSM line r13837821 or OSM route r13837819
+OSM QA : Missing frequency (interval tag) on OSM line r13837821 or OSM route r13837819
+OSM QA : Missing travel duration (duration tag) on OSM route r13837819
+OSM QA : Missing opening_hours on OSM line r13837821 or OSM route r13837820
+OSM QA : Missing frequency (interval tag) on OSM line r13837821 or OSM route r13837820
+OSM QA : Missing travel duration (duration tag) on OSM route r13837820
+OSM QA : Missing opening_hours on OSM line r13838046 or OSM route r13838044
+OSM QA : Missing frequency (interval tag) on OSM line r13838046 or OSM route r13838044
+OSM QA : Missing travel duration (duration tag) on OSM route r13838044
+OSM QA : Missing opening_hours on OSM line r13838046 or OSM route r13838045
+OSM QA : Missing frequency (interval tag) on OSM line r13838046 or OSM route r13838045
+OSM QA : Missing travel duration (duration tag) on OSM route r13838045
+OSM QA : Missing opening_hours on OSM line r13838061 or OSM route r13838060
+OSM QA : Missing frequency (interval tag) on OSM line r13838061 or OSM route r13838060
+OSM QA : Missing travel duration (duration tag) on OSM route r13838060
+OSM QA : Missing opening_hours on OSM line r13838061 or OSM route r13838059
+OSM QA : Missing frequency (interval tag) on OSM line r13838061 or OSM route r13838059
+OSM QA : Missing travel duration (duration tag) on OSM route r13838059
+OSM QA : Missing opening_hours on OSM line r13838092 or OSM route r13838090
+OSM QA : Missing frequency (interval tag) on OSM line r13838092 or OSM route r13838090
+OSM QA : Missing travel duration (duration tag) on OSM route r13838090
+OSM QA : Missing opening_hours on OSM line r13838092 or OSM route r13838091
+OSM QA : Missing frequency (interval tag) on OSM line r13838092 or OSM route r13838091
+OSM QA : Missing travel duration (duration tag) on OSM route r13838091
+OSM QA : Missing opening_hours on OSM line r13838211 or OSM route r13838207
+OSM QA : Missing frequency (interval tag) on OSM line r13838211 or OSM route r13838207
+OSM QA : Missing travel duration (duration tag) on OSM route r13838207
+OSM QA : Missing opening_hours on OSM line r13838211 or OSM route r13838208
+OSM QA : Missing frequency (interval tag) on OSM line r13838211 or OSM route r13838208
+OSM QA : Missing travel duration (duration tag) on OSM route r13838208
+OSM QA : Missing opening_hours on OSM line r13838258 or OSM route r13838257
+OSM QA : Missing frequency (interval tag) on OSM line r13838258 or OSM route r13838257
+OSM QA : Missing travel duration (duration tag) on OSM route r13838257
+OSM QA : Missing opening_hours on OSM line r13838258 or OSM route r13838256
+OSM QA : Missing frequency (interval tag) on OSM line r13838258 or OSM route r13838256
+OSM QA : Missing travel duration (duration tag) on OSM route r13838256
+OSM QA : Missing opening_hours on OSM line r13838449 or OSM route r13838416
+OSM QA : Missing frequency (interval tag) on OSM line r13838449 or OSM route r13838416
+OSM QA : Missing travel duration (duration tag) on OSM route r13838416
+OSM QA : Missing opening_hours on OSM line r13838449 or OSM route r13838417
+OSM QA : Missing frequency (interval tag) on OSM line r13838449 or OSM route r13838417
+OSM QA : Missing travel duration (duration tag) on OSM route r13838417
+OSM QA : Missing opening_hours on OSM line r13838501 or OSM route r13838499
+OSM QA : Missing frequency (interval tag) on OSM line r13838501 or OSM route r13838499
+OSM QA : Missing travel duration (duration tag) on OSM route r13838499
+OSM QA : Missing opening_hours on OSM line r13838501 or OSM route r13838500
+OSM QA : Missing frequency (interval tag) on OSM line r13838501 or OSM route r13838500
+OSM QA : Missing travel duration (duration tag) on OSM route r13838500
+OSM QA : Missing opening_hours on OSM line r13838567 or OSM route r13838565
+OSM QA : Missing frequency (interval tag) on OSM line r13838567 or OSM route r13838565
+OSM QA : Missing travel duration (duration tag) on OSM route r13838565
+OSM QA : Missing opening_hours on OSM line r13838567 or OSM route r13838566
+OSM QA : Missing frequency (interval tag) on OSM line r13838567 or OSM route r13838566
+OSM QA : Missing travel duration (duration tag) on OSM route r13838566
+OSM QA : Missing opening_hours on OSM line r13838750 or OSM route r13838748
+OSM QA : Missing frequency (interval tag) on OSM line r13838750 or OSM route r13838748
+OSM QA : Missing travel duration (duration tag) on OSM route r13838748
+OSM QA : Missing opening_hours on OSM line r13838750 or OSM route r13838749
+OSM QA : Missing frequency (interval tag) on OSM line r13838750 or OSM route r13838749
+OSM QA : Missing travel duration (duration tag) on OSM route r13838749
+OSM QA : Missing opening_hours on OSM line r13838881 or OSM route r13838879
+OSM QA : Missing frequency (interval tag) on OSM line r13838881 or OSM route r13838879
+OSM QA : Missing travel duration (duration tag) on OSM route r13838879
+OSM QA : Missing opening_hours on OSM line r13838881 or OSM route r13838880
+OSM QA : Missing frequency (interval tag) on OSM line r13838881 or OSM route r13838880
+OSM QA : Missing travel duration (duration tag) on OSM route r13838880
+OSM QA : Missing opening_hours on OSM line r13838898 or OSM route r13838896
+OSM QA : Missing frequency (interval tag) on OSM line r13838898 or OSM route r13838896
+OSM QA : Missing travel duration (duration tag) on OSM route r13838896
+OSM QA : Missing opening_hours on OSM line r13838898 or OSM route r13838897
+OSM QA : Missing frequency (interval tag) on OSM line r13838898 or OSM route r13838897
+OSM QA : Missing travel duration (duration tag) on OSM route r13838897
+OSM QA : Missing opening_hours on OSM line r13839195 or OSM route r13839193
+OSM QA : Missing frequency (interval tag) on OSM line r13839195 or OSM route r13839193
+OSM QA : Missing travel duration (duration tag) on OSM route r13839193
+OSM QA : Missing opening_hours on OSM line r13839195 or OSM route r13839194
+OSM QA : Missing frequency (interval tag) on OSM line r13839195 or OSM route r13839194
+OSM QA : Missing travel duration (duration tag) on OSM route r13839194
+OSM QA : Missing opening_hours on OSM line r13839224 or OSM route r13839222
+OSM QA : Missing frequency (interval tag) on OSM line r13839224 or OSM route r13839222
+OSM QA : Missing travel duration (duration tag) on OSM route r13839222
+OSM QA : Missing opening_hours on OSM line r13839224 or OSM route r13839223
+OSM QA : Missing frequency (interval tag) on OSM line r13839224 or OSM route r13839223
+OSM QA : Missing travel duration (duration tag) on OSM route r13839223
+OSM QA : Missing opening_hours on OSM line r13839959 or OSM route r13839958
+OSM QA : Missing frequency (interval tag) on OSM line r13839959 or OSM route r13839958
+OSM QA : Missing travel duration (duration tag) on OSM route r13839958
+OSM QA : Missing opening_hours on OSM line r13839959 or OSM route r13839957
+OSM QA : Missing frequency (interval tag) on OSM line r13839959 or OSM route r13839957
+OSM QA : Missing travel duration (duration tag) on OSM route r13839957
+OSM QA : Missing opening_hours on OSM line r13840066 or OSM route r13840064
+OSM QA : Missing frequency (interval tag) on OSM line r13840066 or OSM route r13840064
+OSM QA : Missing travel duration (duration tag) on OSM route r13840064
+OSM QA : Missing opening_hours on OSM line r13840066 or OSM route r13840065
+OSM QA : Missing frequency (interval tag) on OSM line r13840066 or OSM route r13840065
+OSM QA : Missing travel duration (duration tag) on OSM route r13840065
+OSM QA : Missing opening_hours on OSM line r13840073 or OSM route r13840072
+OSM QA : Missing frequency (interval tag) on OSM line r13840073 or OSM route r13840072
+OSM QA : Missing travel duration (duration tag) on OSM route r13840072
+OSM QA : Missing opening_hours on OSM line r13840073 or OSM route r13840071
+OSM QA : Missing frequency (interval tag) on OSM line r13840073 or OSM route r13840071
+OSM QA : Missing travel duration (duration tag) on OSM route r13840071
+OSM QA : Missing opening_hours on OSM line r13840084 or OSM route r13840083
+OSM QA : Missing frequency (interval tag) on OSM line r13840084 or OSM route r13840083
+OSM QA : Missing travel duration (duration tag) on OSM route r13840083
+OSM QA : Missing opening_hours on OSM line r13840084 or OSM route r13840082
+OSM QA : Missing frequency (interval tag) on OSM line r13840084 or OSM route r13840082
+OSM QA : Missing travel duration (duration tag) on OSM route r13840082
+OSM QA : Missing opening_hours on OSM line r13840178 or OSM route r13840176
+OSM QA : Missing frequency (interval tag) on OSM line r13840178 or OSM route r13840176
+OSM QA : Missing travel duration (duration tag) on OSM route r13840176
+OSM QA : Missing opening_hours on OSM line r13840178 or OSM route r13840177
+OSM QA : Missing frequency (interval tag) on OSM line r13840178 or OSM route r13840177
+OSM QA : Missing travel duration (duration tag) on OSM route r13840177
+OSM QA : Missing opening_hours on OSM line r13840234 or OSM route r13840232
+OSM QA : Missing frequency (interval tag) on OSM line r13840234 or OSM route r13840232
+OSM QA : Missing travel duration (duration tag) on OSM route r13840232
+OSM QA : Missing opening_hours on OSM line r13840234 or OSM route r13840233
+OSM QA : Missing frequency (interval tag) on OSM line r13840234 or OSM route r13840233
+OSM QA : Missing travel duration (duration tag) on OSM route r13840233
+OSM QA : Missing opening_hours on OSM line r13840281 or OSM route r13840280
+OSM QA : Missing frequency (interval tag) on OSM line r13840281 or OSM route r13840280
+OSM QA : Missing travel duration (duration tag) on OSM route r13840280
+OSM QA : Missing opening_hours on OSM line r13840281 or OSM route r13840279
+OSM QA : Missing frequency (interval tag) on OSM line r13840281 or OSM route r13840279
+OSM QA : Missing travel duration (duration tag) on OSM route r13840279
+OSM QA : Missing opening_hours on OSM line r13840365 or OSM route r13840363
+OSM QA : Missing frequency (interval tag) on OSM line r13840365 or OSM route r13840363
+OSM QA : Missing travel duration (duration tag) on OSM route r13840363
+OSM QA : Missing opening_hours on OSM line r13840365 or OSM route r13840364
+OSM QA : Missing frequency (interval tag) on OSM line r13840365 or OSM route r13840364
+OSM QA : Missing travel duration (duration tag) on OSM route r13840364
+OSM QA : Missing opening_hours on OSM line r13847529 or OSM route r13847528
+OSM QA : Missing frequency (interval tag) on OSM line r13847529 or OSM route r13847528
+OSM QA : Missing travel duration (duration tag) on OSM route r13847528
+OSM QA : Missing opening_hours on OSM line r13847529 or OSM route r13847527
+OSM QA : Missing frequency (interval tag) on OSM line r13847529 or OSM route r13847527
+OSM QA : Missing travel duration (duration tag) on OSM route r13847527
+OSM QA : Missing opening_hours on OSM line r13850236 or OSM route r13850235
+OSM QA : Missing frequency (interval tag) on OSM line r13850236 or OSM route r13850235
+OSM QA : Missing travel duration (duration tag) on OSM route r13850235
+OSM QA : Missing opening_hours on OSM line r13850236 or OSM route r13850234
+OSM QA : Missing frequency (interval tag) on OSM line r13850236 or OSM route r13850234
+OSM QA : Missing travel duration (duration tag) on OSM route r13850234
+OSM QA : Missing opening_hours on OSM line r13850732 or OSM route r13850731
+OSM QA : Missing frequency (interval tag) on OSM line r13850732 or OSM route r13850731
+OSM QA : Missing travel duration (duration tag) on OSM route r13850731
+OSM QA : Missing opening_hours on OSM line r13850732 or OSM route r13850730
+OSM QA : Missing frequency (interval tag) on OSM line r13850732 or OSM route r13850730
+OSM QA : Missing travel duration (duration tag) on OSM route r13850730

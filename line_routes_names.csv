@@ -47,8 +47,8 @@ r13535512,r13535511,Fort Kochi ↔ Wellington Island,Fort Kochi → Wellington I
 r13535512,r13535510,Fort Kochi ↔ Wellington Island,Wellington Island → Fort Kochi
 r13539090,r13539089,Aluva ↔ Wellington Island,Aluva → Wellington Island
 r13539090,r13539088,Aluva ↔ Wellington Island,Wellington Island → Aluva
-r13544303,r13544302,Aluva ↔ Chellanam,Aluva → Chellanam
-r13544303,r13544301,Aluva ↔ Chellanam,Chellanam → Aluva
+r13544303,r13544302,Aluva ↔ Chellanam (via Menaka),Aluva → Chellanam
+r13544303,r13544301,Aluva ↔ Chellanam (via Menaka),Chellanam → Aluva
 r13544888,r13544887,Fort Kochi ↔ Kakkanad (via Menaka),Fort Kochi → Kakkanad
 r13544888,r13544886,Fort Kochi ↔ Kakkanad (via Menaka),Kakkanad → Fort Kochi
 r13545124,r13545123,Aluva ↔ Thoppumpady via Menaka,Aluva → Thoppumpady
@@ -468,6 +468,7 @@ r13781430,r13781429,Kaloor ↔ Pukkattupady,Pukkattupady → Kaloor
 r13781463,r13781462,Ernakulam South ↔ Perumbavoor,Ernakulam South → Perumbavoor
 r13781491,r13781490,Kaloor ↔ Thrippoonithura,Kaloor → Thrippoonithura
 r13781491,r13781489,Kaloor ↔ Thrippoonithura,Thrippoonithura → Kaloor
+r13781528,r13876966,Aluva ↔ Kaloor,Aluva → Kaloor
 r13781528,r13781527,Aluva ↔ Kaloor,Kaloor → Aluva
 r13791383,r13791379,High Court ↔ Nedungad,High Court → Nedungad
 r13791383,r13791380,High Court ↔ Nedungad,Nedungad → High Court
@@ -585,8 +586,8 @@ r13840066,r13840064,Kaloor ↔ Amaeda,Amaeda → Kaloor
 r13840066,r13840065,Kaloor ↔ Amaeda,Kaloor → Amaeda
 r13840073,r13840072,Kakkanad ↔ Thrippoonithura,Kakkanad → Thrippoonithura
 r13840073,r13840071,Kakkanad ↔ Thrippoonithura,Thrippoonithura → Kakkanad
-r13840084,r13840083,Aluva ↔ Chellanam,Aluva → Chellanam
-r13840084,r13840082,Aluva ↔ Chellanam,Chellanam → Aluva
+r13840084,r13840083,Aluva ↔ Chellanam (via Padma),Aluva → Chellanam
+r13840084,r13840082,Aluva ↔ Chellanam (via Padma),Chellanam → Aluva
 r13840178,r13840176,Aluva ↔ Vyttila,Aluva → Vyttila
 r13840178,r13840177,Aluva ↔ Vyttila,Vyttila → Aluva
 r13840234,r13840232,Kundannoor ↔ Vyttila,Kundannoor → Vyttila
@@ -601,3 +602,138 @@ r13850236,r13850235,Ankamaly ↔ Ernakulam Boat Jetty,Ankamaly → Ernakulam Boa
 r13850236,r13850234,Ankamaly ↔ Ernakulam Boat Jetty,Ernakulam Boat Jetty → Ankamaly
 r13850732,r13850731,North Paravur ↔ Vyttila,North Paravur → Vyttila
 r13850732,r13850730,North Paravur ↔ Vyttila,Vyttila → North Paravur
+r13874627,r13874626,Edachira ↔ Edakochi,Edachira → Edakochi
+r13874627,r13874625,Edachira ↔ Edakochi,Edakochi → Edachira
+r13874633,r13874631,Elamakkara ↔ Ernakulam South,Elamakkara → Ernakulam South
+r13874633,r13874632,Elamakkara ↔ Ernakulam South,Ernakulam South → Elamakkara
+r13874700,r13874697,Thevara Junction ↔ Edachira,Edachira → Thevara Junction
+r13874700,r13874696,Thevara Junction ↔ Edachira,Thevara Junction → Edachira
+r13874701,r13874698,Edachira ↔ Pambayimoola,Edachira → Pambayimoola
+r13874701,r13874699,Edachira ↔ Pambayimoola,Pambayimoola → Edachira
+r13874787,r13874785,Thuthiyoor ↔ Ernakulam South,Ernakulam South → Thuthiyoor
+r13874787,r13874786,Thuthiyoor ↔ Ernakulam South,Thuthiyoor → Ernakulam South
+r13874795,r13874793,Thuthiyoor ↔ Thevara Ferry,Thevara Ferry → Thuthiyoor
+r13874795,r13874794,Thuthiyoor ↔ Thevara Ferry,Thuthiyoor → Thevara Ferry
+r13874803,r13874801,Chittethukara ↔ Kakkanad,Chittethukara → Kakkanad
+r13874803,r13874802,Chittethukara ↔ Kakkanad,Kakkanad → Chittethukara
+r13874892,r13874891,Kakkanad ↔ Mundamveli,Kakkanad → Mundamveli
+r13874892,r13874890,Kakkanad ↔ Mundamveli,Mundamveli → Kakkanad
+r13874910,r13874909,Thuthiyoor ↔ Mundamveli,Mundamveli → Thuthiyoor
+r13874910,r13874908,Thuthiyoor ↔ Mundamveli,Thuthiyoor → Mundamveli
+r13874972,r13874970,Kakkanad CEPZ ↔ Fortkochi,Fortkochi → Kakkanad CEPZ
+r13874972,r13874971,Kakkanad CEPZ ↔ Fortkochi,Kakkanad CEPZ → Fortkochi
+r13874992,r13874991,Kakkanad CEPZ ↔ Thevara Junction,Kakkanad CEPZ → Thevara Junction
+r13874992,r13874990,Kakkanad CEPZ ↔ Thevara Junction,Thevara Junction → Kakkanad CEPZ
+r13875009,r13875007,Chittethukara ↔ Edakochi,Chittethukara → Edakochi
+r13875009,r13875008,Chittethukara ↔ Edakochi,Edakochi → Chittethukara
+r13875069,r13875067,Kaloor ↔ Poothotta (via Menaka),Kaloor → Poothotta
+r13875069,r13875068,Kaloor ↔ Poothotta (via Menaka),Poothotta → Kaloor
+r13875116,r13875114,Chittethukara ↔ Poothotta (via Menaka),Chittethukara → Poothotta
+r13875116,r13875115,Chittethukara ↔ Poothotta (via Menaka),Poothotta → Chittethukara
+r13875148,r13875146,Chittethukara ↔ Mundamveli,Chittethukara → Mundamveli
+r13875148,r13875147,Chittethukara ↔ Mundamveli,Mundamveli → Chittethukara
+r13876531,r13876530,Mattancherry ↔ Nilampathijamukal,Mattancherry → Nilampathijamukal
+r13876531,r13876529,Mattancherry ↔ Nilampathijamukal,Nilampathijamukal → Mattancherry
+r13876545,r13876543,Konthuruthy ↔ Nilampathijamukal,Konthuruthy → Nilampathijamukal
+r13876545,r13876544,Konthuruthy ↔ Nilampathijamukal,Nilampathijamukal → Konthuruthy
+r13876572,r13876571,Thevakkal ↔ Kakkanad,Kakkanad → Thevakkal
+r13876572,r13876570,Thevakkal ↔ Kakkanad,Thevakkal → Kakkanad
+r13876608,r13876606,Chittethukara ↔ Konthuruthy,Konthuruthy → Chittethukara
+r13876608,r13876607,Chittethukara ↔ Konthuruthy,Chittethukara → Konthuruthy
+r13876614,r13876613,Kakkanad CEPZ ↔ Perumpadappu,Kakkanad CEPZ → Perumpadappu
+r13876614,r13876612,Kakkanad CEPZ ↔ Perumpadappu,Perumpadappu → Kakkanad CEPZ
+r13876620,r13876619,Edachira ↔ Thevara Ferry,Edachira → Thevara Ferry
+r13876620,r13876618,Edachira ↔ Thevara Ferry,Thevara Ferry → Edachira
+r13876626,r13876624,Chittethukara ↔ Ernakulam South,Ernakulam South → Chittethukara
+r13876626,r13876625,Chittethukara ↔ Ernakulam South,Chittethukara → Ernakulam South
+r13876636,r13876634,Thevakkal ↔ Thevara Ferry,Thevakkal → Thevara Ferry
+r13876636,r13876635,Thevakkal ↔ Thevara Ferry,Thevara Ferry → Thevakkal
+r13876652,r13876650,Thevakkal ↔ Edakochi,Edakochi → Thevakkal
+r13876652,r13876651,Thevakkal ↔ Edakochi,Thevakkal → Edakochi
+r13876655,r13876653,Nilampathijamukal ↔ Mundamveli,Mundamveli → Nilampathijamukal
+r13876655,r13876654,Nilampathijamukal ↔ Mundamveli,Nilampathijamukal → Mundamveli
+r13876681,r13876679,Kavumthazham ↔ Thrippoonithura,Kavumthazham → Thrippoonithura
+r13876681,r13876680,Kavumthazham ↔ Thrippoonithura,Thrippoonithura → Kavumthazham
+r13876761,r13876760,Chittethukara ↔ Poothotta (via Padma),Chittethukara → Poothotta
+r13876761,r13876759,Chittethukara ↔ Poothotta (via Padma),Poothotta → Chittethukara
+r13876773,r13876772,Chittethukara ↔ Poothotta (via Bypass),Chittethukara → Poothotta
+r13876773,r13876771,Chittethukara ↔ Poothotta (via Bypass),Poothotta → Chittethukara
+r13876836,r13876835,Nilampathijamukal ↔ Thevara Ferry,Nilampathijamukal → Thevara Ferry
+r13876836,r13876834,Nilampathijamukal ↔ Thevara Ferry,Thevara Ferry → Nilampathijamukal
+r13876839,r13876838,Fort Kochi ↔ Nilampathijamukal,Fort Kochi → Nilampathijamukal
+r13876839,r13876837,Fort Kochi ↔ Nilampathijamukal,Nilampathijamukal → Fort Kochi
+r13876847,r13876846,Kakkanad ↔ Kaloor,Kakkanad → Kaloor
+r13876847,r13876845,Kakkanad ↔ Kaloor,Kaloor → Kakkanad
+r13876859,r13876857,Kakkanad CEPZ ↔ Edakochi,Edakochi → Kakkanad CEPZ
+r13876859,r13876858,Kakkanad CEPZ ↔ Edakochi,Kakkanad CEPZ → Edakochi
+r13876903,r13876902,Kakkanad ↔ Medical College,Kakkanad → Medical College
+r13876903,r13876901,Kakkanad ↔ Medical College,Medical College → Kakkanad
+r13876930,r13876929,Amrutha Hospital ↔ North Paravur,Amrutha Hospital → North Paravur
+r13876930,r13876928,Amrutha Hospital ↔ North Paravur,North Paravur → Amrutha Hospital
+r13880472,r13880471,Kakkanad ↔ Kaloor,Kakkanad → Kaloor
+r13880472,r13880470,Kakkanad ↔ Kaloor,Kaloor → Kakkanad
+r13880518,r13880516,Kinfra ↔ Thrippoonithura,Kinfra → Thrippoonithura
+r13880518,r13880517,Kinfra ↔ Thrippoonithura,Thrippoonithura → Kinfra
+r13880777,r13880776,HMT Colony Junction ↔ Thrippoonithura,HMT Colony Junction → Thrippoonithura
+r13880777,r13880775,HMT Colony Junction ↔ Thrippoonithura,Thrippoonithura → HMT Colony Junction
+r13880914,r13880913,BM College ↔ Thrippoonithura,BM College → Thrippoonithura
+r13880914,r13880912,BM College ↔ Thrippoonithura,Thrippoonithura → BM College
+r13880993,r13880991,Padathikkara ↔ Thoppumpady,Padathikkara → Thoppumpady
+r13880993,r13880992,Padathikkara ↔ Thoppumpady,Thoppumpady → Padathikkara
+r13881199,r13881198,Padathikkara ↔ Thrippoonithura,Padathikkara → Thrippoonithura
+r13881199,r13881197,Padathikkara ↔ Thrippoonithura,Thrippoonithura → Padathikkara
+r13881291,r13881289,Kinfra ↔ Kundannoor,Kinfra → Kundannoor
+r13881291,r13881290,Kinfra ↔ Kundannoor,Kundannoor → Kinfra
+r13881313,r13881311,Kinfra ↔ Thoppumpady,Kinfra → Thoppumpady
+r13881313,r13881312,Kinfra ↔ Thoppumpady,Thoppumpady → Kinfra
+r13881342,r13881341,HMT Junction ↔ Thoppumpady,HMT Junction → Thoppumpady
+r13881342,r13881340,HMT Junction ↔ Thoppumpady,Thoppumpady → HMT Junction
+r13881364,r13881362,HMT Junction ↔ Kundannoor,HMT Junction → Kundannoor
+r13881364,r13881363,HMT Junction ↔ Kundannoor,Kundannoor → HMT Junction
+r13881373,r13881372,Thrippoonithura ↔ Kalamassery,Kalamassery → Thrippoonithura
+r13881373,r13881371,Thrippoonithura ↔ Kalamassery,Thrippoonithura → Kalamassery
+r13881389,r13881387,Kakkanad ↔ Kalamassery,Kakkanad → Kalamassery
+r13881389,r13881388,Kakkanad ↔ Kalamassery,Kalamassery → Kakkanad
+r13881486,r13881484,Mulanthuruthy ↔ Kakkanad,Kakkanad → Mulanthuruthy
+r13881486,r13881485,Mulanthuruthy ↔ Kakkanad,Mulanthuruthy → Kakkanad
+r13881505,r13881503,Thrippoonithura ↔ Edachira,Edachira → Thrippoonithura
+r13881505,r13881504,Thrippoonithura ↔ Edachira,Thrippoonithura → Edachira
+r13881512,r13881510,Thrippoonithura ↔ HMT Junction,HMT Junction → Thrippoonithura
+r13881512,r13881511,Thrippoonithura ↔ HMT Junction,Thrippoonithura → HMT Junction
+r13881577,r13881576,Kakkanad ↔ Poothotta,Kakkanad → Poothotta
+r13881577,r13881575,Kakkanad ↔ Poothotta,Poothotta → Kakkanad
+r13881584,r13881583,Rajagiri ↔ High Court,High Court → Rajagiri
+r13881584,r13881582,Rajagiri ↔ High Court,Rajagiri → High Court
+r13881608,r13881607,Chellanam ↔ Kothad ferry,Chellanam → Kothad ferry
+r13881608,r13881606,Chellanam ↔ Kothad ferry,Kothad ferry → Chellanam
+r13881616,r13881614,Perumbavoor ↔ Wellington Island,Perumbavoor → Wellington Island
+r13881616,r13881615,Perumbavoor ↔ Wellington Island,Wellington Island → Perumbavoor
+r13881662,r13881661,High Court ↔ Kottuvally,High Court → Kottuvally
+r13881662,r13881660,High Court ↔ Kottuvally,Kottuvally → High Court
+r13881684,r13881682,Ambalamugal ↔ Kakkanad,Ambalamugal → Kakkanad
+r13881684,r13881683,Ambalamugal ↔ Kakkanad,Kakkanad → Ambalamugal
+r13881708,r13881706,Kalamassery ↔ Mulanthuruthy,Kalamassery → Mulanthuruthy
+r13881708,r13881707,Kalamassery ↔ Mulanthuruthy,Mulanthuruthy → Kalamassery
+r13881745,r13881744,Ernakulam South ↔ Perumpadappu,Ernakulam South → Perumpadappu
+r13881745,r13881743,Ernakulam South ↔ Perumpadappu,Perumpadappu → Ernakulam South
+r13881798,r13881797,Poothotta ↔ Thrippoonithura,Poothotta → Thrippoonithura
+r13881798,r13881796,Poothotta ↔ Thrippoonithura,Thrippoonithura → Poothotta
+r13881820,r13881818,Poothotta ↔ Kakkanad CEPZ,Kakkanad CEPZ → Poothotta
+r13881820,r13881819,Poothotta ↔ Kakkanad CEPZ,Poothotta → Kakkanad CEPZ
+r13881825,r13881823,Thrippoonithura ↔ Kakkanad CEPZ,Kakkanad CEPZ → Thrippoonithura
+r13881825,r13881824,Thrippoonithura ↔ Kakkanad CEPZ,Thrippoonithura → Kakkanad CEPZ
+r13881885,r13881883,Ambalamugal ↔ Thrippoonithura,Ambalamugal → Thrippoonithura
+r13881885,r13881884,Ambalamugal ↔ Thrippoonithura,Thrippoonithura → Ambalamugal
+r13881908,r13881906,Thrippoonithura ↔ Elamakkara,Elamakkara → Thrippoonithura
+r13881908,r13881907,Thrippoonithura ↔ Elamakkara,Thrippoonithura → Elamakkara
+r13881936,r13881935,Thrippoonithura ↔ Thrippoonithura,Thrippoonithura → Thrippoonithura
+r13882036,r13882035,Chottanikkara ↔ High Court,Chottanikkara → High Court
+r13882036,r13882034,Chottanikkara ↔ High Court,High Court → Chottanikkara
+r13882058,r13882056,Kaloor ↔ Aroor,Aroor → Kaloor
+r13882058,r13882057,Kaloor ↔ Aroor,Kaloor → Aroor
+r13882166,r13882165,Vyttila ↔ Perumbavoor,Perumbavoor → Vyttila
+r13882166,r13882164,Vyttila ↔ Perumbavoor,Vyttila → Perumbavoor
+r13882191,r13882189,Kaloor ↔ Poothotta,Kaloor → Poothotta
+r13882191,r13882190,Kaloor ↔ Poothotta,Poothotta → Kaloor
+r13884598,r13884597,Amrutha Hospital ↔ Ankamaly,Amrutha Hospital → Ankamaly
+r13884598,r13884596,Amrutha Hospital ↔ Ankamaly,Ankamaly → Amrutha Hospital

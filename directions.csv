@@ -208,8 +208,8 @@ r13629057,r10403637,North Paravur ↔ High Court,High Court → North Paravur,ba
 r13629057,r10523911,North Paravur ↔ High Court,North Paravur → High Court,forward
 r13629058,r13546063,Munambam ↔ High Court,Munambam → High Court,forward
 r13629058,r13546062,Munambam ↔ High Court,High Court → Munambam,backward
-r13629393,r13629392,Aluva ↔ Thrippoonithura,Aluva → Thrippoonithura,forward
-r13629393,r13629391,Aluva ↔ Thrippoonithura,Thrippoonithura → Aluva,backward
+r13629393,r13629392,Aluva ↔ Thrippoonithura (via Palikkara),Aluva → Thrippoonithura,unknown
+r13629393,r13629391,Aluva ↔ Thrippoonithura (via Palikkara),Thrippoonithura → Aluva,unknown
 r13635071,r13635070,Cheranellore ↔ Fort Kochi (via Padma),Cheranellore → Fort Kochi,unknown
 r13635071,r13635069,Cheranellore ↔ Fort Kochi (via Padma),Fort Kochi → Cheranellore,unknown
 r13637600,r13637599,North Paravur ↔ Vyttila (via Kottuvalli),North Paravur → Vyttila,unknown
@@ -572,8 +572,8 @@ r13838567,r13838565,Aluva ↔ Chottanikkara (via Ponekkara),Aluva → Chottanikk
 r13838567,r13838566,Aluva ↔ Chottanikkara (via Ponekkara),Chottanikkara → Aluva,unknown
 r13838750,r13838748,North Paravur ↔ Thevara Junction,North Paravur → Thevara Junction,forward
 r13838750,r13838749,North Paravur ↔ Thevara Junction,Thevara Junction → North Paravur,backward
-r13838881,r13838879,Kaloor ↔ Chathanad,Chathanad → Kaloor,backward
-r13838881,r13838880,Kaloor ↔ Chathanad,Kaloor → Chathanad,forward
+r13838881,r13838879,North Paravur ↔ Chathanad,Chathanad → North Paravur,backward
+r13838881,r13838880,North Paravur ↔ Chathanad,North Paravur → Chathanad,forward
 r13838898,r13838896,Kaloor ↔ Chathanad,Chathanad → Kaloor,backward
 r13838898,r13838897,Kaloor ↔ Chathanad,Kaloor → Chathanad,forward
 r13839195,r13839193,Aluva ↔ North Paravur,Aluva → North Paravur,forward
@@ -700,8 +700,8 @@ r13881505,r13881503,Thrippoonithura ↔ Edachira,Edachira → Thrippoonithura,ba
 r13881505,r13881504,Thrippoonithura ↔ Edachira,Thrippoonithura → Edachira,forward
 r13881512,r13881510,Thrippoonithura ↔ HMT Junction,HMT Junction → Thrippoonithura,backward
 r13881512,r13881511,Thrippoonithura ↔ HMT Junction,Thrippoonithura → HMT Junction,forward
-r13881577,r13881576,Kakkanad ↔ Poothotta,Kakkanad → Poothotta,forward
-r13881577,r13881575,Kakkanad ↔ Poothotta,Poothotta → Kakkanad,backward
+r13881577,r13881576,Kakkanad ↔ Poothotta (via KK Road),Kakkanad → Poothotta,unknown
+r13881577,r13881575,Kakkanad ↔ Poothotta (via KK Road),Poothotta → Kakkanad,unknown
 r13881584,r13881583,Rajagiri ↔ High Court,High Court → Rajagiri,backward
 r13881584,r13881582,Rajagiri ↔ High Court,Rajagiri → High Court,forward
 r13881608,r13881607,Chellanam ↔ Kothad ferry,Chellanam → Kothad ferry,forward
@@ -737,3 +737,198 @@ r13882191,r13882189,Kaloor ↔ Poothotta,Kaloor → Poothotta,forward
 r13882191,r13882190,Kaloor ↔ Poothotta,Poothotta → Kaloor,backward
 r13884598,r13884597,Amrutha Hospital ↔ Ankamaly,Amrutha Hospital → Ankamaly,forward
 r13884598,r13884596,Amrutha Hospital ↔ Ankamaly,Ankamaly → Amrutha Hospital,backward
+r13903189,r13903188,Aroor ↔ Ernakulam South,Aroor → Ernakulam South,forward
+r13903189,r13903187,Aroor ↔ Ernakulam South,Ernakulam South → Aroor,backward
+r13904698,r13904696,Ernakulam south ↔ Poothotta,Poothotta → Ernakulam south,backward
+r13904698,r13904697,Ernakulam south ↔ Poothotta,Ernakulam south → Poothotta,forward
+r13906443,r13906442,Ankamaly ↔ Thoppumpady (via Eloor),Ankamaly → Thoppumpady,unknown
+r13906443,r13906441,Ankamaly ↔ Thoppumpady (via Eloor),Thoppumpady → Ankamaly,unknown
+r13906521,r13906520,North Paravur ↔ Thathappilly,North Paravur → Thathappilly,forward
+r13906521,r13906519,North Paravur ↔ Thathappilly,Thathappilly → North Paravur,backward
+r13907492,r13907491,HMT ↔ Medical College,HMT → Medical College,forward
+r13907492,r13907490,HMT ↔ Medical College,Medical College → HMT,backward
+r13909778,r13909777,Ernakulam Boat Jetty ↔ Malliankara,Ernakulam Boat Jetty → Malliankara,forward
+r13909778,r13909776,Ernakulam Boat Jetty ↔ Malliankara,Malliankara → Ernakulam Boat Jetty,backward
+r13909820,r13909819,Ernakulam South ↔ Piravom (via Nadakavu and Vettickal),Ernakulam South → Piravom,unknown
+r13909820,r13909818,Ernakulam South ↔ Piravom (via Nadakavu and Vettickal),Piravom → Ernakulam South,unknown
+r13910486,r13910485,Vyttila ↔ Aroor,Aroor → Vyttila,backward
+r13910486,r13910484,Vyttila ↔ Aroor,Vyttila → Aroor,forward
+r13910537,r13910535,Thoppumpady ↔ Aroor,Aroor → Thoppumpady,backward
+r13910537,r13910536,Thoppumpady ↔ Aroor,Thoppumpady → Aroor,forward
+r13910734,r13910733,Ernakulam South ↔ Piravom (via Maneed),Ernakulam South → Piravom,unknown
+r13910734,r13910732,Ernakulam South ↔ Piravom (via Maneed),Piravom → Ernakulam South,unknown
+r13910870,r13910869,High Court ↔ Mulavukad,High Court → Mulavukad,forward
+r13910870,r13910868,High Court ↔ Mulavukad,Mulavukad → High Court,backward
+r13911254,r13911252,Ernakulam Boat Jetty ↔ Eloor,Eloor → Ernakulam Boat Jetty,backward
+r13911254,r13911253,Ernakulam Boat Jetty ↔ Eloor,Ernakulam Boat Jetty → Eloor,forward
+r13911262,r13911260,Eloor ↔ Chittoor,Chittoor → Eloor,backward
+r13911262,r13911261,Eloor ↔ Chittoor,Eloor → Chittoor,forward
+r13911376,r13911375,Chittoor ↔ Kadamakkudy,Chittoor → Kadamakkudy,forward
+r13911376,r13911374,Chittoor ↔ Kadamakkudy,Kadamakkudy → Chittoor,backward
+r13913117,r13913116,Amrutha Hospital ↔ Perumbavoor,Amrutha Hospital → Perumbavoor,forward
+r13913117,r13913115,Amrutha Hospital ↔ Perumbavoor,Perumbavoor → Amrutha Hospital,backward
+r13913605,r13913604,Piravom ↔ Vyttila (via Maneed),Piravom → Vyttila,unknown
+r13913605,r13913603,Piravom ↔ Vyttila (via Maneed),Vyttila → Piravom,unknown
+r13913676,r13913675,Eloor ↔ Thrippoonithura,Eloor → Thrippoonithura,forward
+r13913676,r13913674,Eloor ↔ Thrippoonithura,Thrippoonithura → Eloor,backward
+r13913784,r13913782,Aluva ↔ Ernakulam Boat Jetty,Aluva → Ernakulam Boat Jetty,forward
+r13913784,r13913783,Aluva ↔ Ernakulam Boat Jetty,Ernakulam Boat Jetty → Aluva,backward
+r13913848,r13913846,High Court ↔ North Paravur,High Court → North Paravur,forward
+r13913848,r13913847,High Court ↔ North Paravur,North Paravur → High Court,backward
+r13913981,r13913980,Kakkanad ↔ North Paravur,Kakkanad → North Paravur,forward
+r13913981,r13913979,Kakkanad ↔ North Paravur,North Paravur → Kakkanad,backward
+r13914088,r13914086,Aluva ↔ Perumbavoor,Aluva → Perumbavoor,forward
+r13914088,r13914087,Aluva ↔ Perumbavoor,Perumbavoor → Aluva,backward
+r13914117,r13914116,Ernakulam Boat Jetty ↔ Perumbavoor,Ernakulam Boat Jetty → Perumbavoor,forward
+r13914117,r13914115,Ernakulam Boat Jetty ↔ Perumbavoor,Perumbavoor → Ernakulam Boat Jetty,backward
+r13914137,r13914135,Ernakulam South ↔ Perumbavoor,Ernakulam South → Perumbavoor,forward
+r13914137,r13914136,Ernakulam South ↔ Perumbavoor,Perumbavoor → Ernakulam South,backward
+r13914140,r13914139,Poothotta ↔ Eloor,Eloor → Poothotta,backward
+r13914140,r13914138,Poothotta ↔ Eloor,Poothotta → Eloor,forward
+r13914203,r13914202,Amrutha Hospital ↔ Piravom,Amrutha Hospital → Piravom,forward
+r13914203,r13914201,Amrutha Hospital ↔ Piravom,Piravom → Amrutha Hospital,backward
+r13914222,r13914220,Ankamaly ↔ Thrippoonithura,Ankamaly → Thrippoonithura,forward
+r13914222,r13914221,Ankamaly ↔ Thrippoonithura,Thrippoonithura → Ankamaly,backward
+r13914247,r13914245,Aluva ↔ Kalamassery,Aluva → Kalamassery,forward
+r13914247,r13914246,Aluva ↔ Kalamassery,Kalamassery → Aluva,backward
+r13916416,r13916415,Aluva ↔ Thrippoonithura (via Kakkanad),Aluva → Thrippoonithura,unknown
+r13916416,r13916414,Aluva ↔ Thrippoonithura (via Kakkanad),Thrippoonithura → Aluva,unknown
+r13950508,r13950507,Cherai ↔ Vypin,Cherai → Vypin,forward
+r13950508,r13950506,Cherai ↔ Vypin,Vypin → Cherai,backward
+r13951395,r13951394,Munambam ↔ Vypin,Munambam → Vypin,forward
+r13951395,r13951393,Munambam ↔ Vypin,Vypin → Munambam,backward
+r13952129,r13952127,Ernakulam South ↔ Puthukkalavattam,Puthukkalavattam → Ernakulam South,backward
+r13952129,r13952128,Ernakulam South ↔ Puthukkalavattam,Ernakulam South → Puthukkalavattam,forward
+r13953586,r13953585,Aluva ↔ Thrippoonithura (via Kakkanad),Aluva → Thrippoonithura,unknown
+r13953586,r13953584,Aluva ↔ Thrippoonithura (via Kakkanad),Thrippoonithura → Aluva,unknown
+r13953621,r13953620,Aluva ↔ Thrippoonithura (via Menaka),Aluva → Thrippoonithura,unknown
+r13953621,r13953619,Aluva ↔ Thrippoonithura (via Menaka),Thrippoonithura → Aluva,unknown
+r13953626,r13953625,Irumpanam ↔ Thrippoonithura,Irumpanam → Thrippoonithura,forward
+r13953626,r13953624,Irumpanam ↔ Thrippoonithura,Thrippoonithura → Irumpanam,backward
+r13953641,r13953640,Chittoor ↔ Kakkanad,Chittoor → Kakkanad,forward
+r13953641,r13953639,Chittoor ↔ Kakkanad,Kakkanad → Chittoor,backward
+r13953702,r13953701,Chottanikkara ↔ Pukkattupady,Chottanikkara → Pukkattupady,forward
+r13953702,r13953700,Chottanikkara ↔ Pukkattupady,Pukkattupady → Chottanikkara,backward
+r13953732,r13953731,High Court ↔ Kakkanad,High Court → Kakkanad,forward
+r13953732,r13953730,High Court ↔ Kakkanad,Kakkanad → High Court,backward
+r13953737,r13953735,Kakkanad ↔ Poothotta,Poothotta → Kakkanad,backward
+r13953737,r13953736,Kakkanad ↔ Poothotta,Kakkanad → Poothotta,forward
+r13954095,r13954093,Infopark ↔ Karimugal,Infopark → Karimugal,forward
+r13954095,r13954094,Infopark ↔ Karimugal,Karimugal → Infopark,backward
+r13954116,r13954114,North Paravur ↔ Varapuzha,North Paravur → Varapuzha,forward
+r13954116,r13954115,North Paravur ↔ Varapuzha,Varapuzha → North Paravur,backward
+r13954124,r13954123,Thrippoonithura ↔ Kakkanad,Kakkanad → Thrippoonithura,backward
+r13954124,r13954122,Thrippoonithura ↔ Kakkanad,Thrippoonithura → Kakkanad,forward
+r13954345,r13954343,Perumpadappu ↔ Mattancherry,Mattancherry → Perumpadappu,backward
+r13954345,r13954344,Perumpadappu ↔ Mattancherry,Perumpadappu → Mattancherry,forward
+r13954356,r13954354,Irumpanam ↔ Chittoor Temple,Chittoor Temple → Irumpanam,backward
+r13954356,r13954355,Irumpanam ↔ Chittoor Temple,Irumpanam → Chittoor Temple,forward
+r13954389,r13954388,Kakkanad ↔ Palarivattom,Kakkanad → Palarivattom,forward
+r13954389,r13954387,Kakkanad ↔ Palarivattom,Palarivattom → Kakkanad,backward
+r13954410,r13954409,Pukkattupady ↔ Thrippoonithura,Pukkattupady → Thrippoonithura,forward
+r13954410,r13954408,Pukkattupady ↔ Thrippoonithura,Thrippoonithura → Pukkattupady,backward
+r13954424,r13954423,Infopark ↔ Thevara Ferry,Infopark → Thevara Ferry,forward
+r13954424,r13954422,Infopark ↔ Thevara Ferry,Thevara Ferry → Infopark,backward
+r13954437,r13954435,Infopark ↔ Ernakulam Boat Jetty,Ernakulam Boat Jetty → Infopark,backward
+r13954437,r13954436,Infopark ↔ Ernakulam Boat Jetty,Infopark → Ernakulam Boat Jetty,forward
+r13954457,r13954456,Edachira ↔ Ernakulam Boat Jetty,Edachira → Ernakulam Boat Jetty,forward
+r13954457,r13954455,Edachira ↔ Ernakulam Boat Jetty,Ernakulam Boat Jetty → Edachira,backward
+r13954841,r13954839,Kakkanad ↔ Poothotta (via Bypass),Kakkanad → Poothotta (via Bypass),forward
+r13954841,r13954840,Kakkanad ↔ Poothotta (via Bypass),Poothotta → Kakkanad (via Bypass),unknown
+r13956157,r13956156,Kakkanad ↔ Chathamma,Kakkanad → Chathamma,forward
+r13956157,r13956155,Kakkanad ↔ Chathamma,Chathamma → Kakkanad,backward
+r13956262,r13956261,Ponekkara ↔ Perumpadappu,Perumpadappu → Ponekkara,backward
+r13956262,r13956260,Ponekkara ↔ Perumpadappu,Ponekkara → Perumpadappu,forward
+r13957653,r13957651,Thevakkal ↔ Kumbalam Railway Station,Kumbalam Railway Station → Thevakkal,backward
+r13957653,r13957652,Thevakkal ↔ Kumbalam Railway Station,Thevakkal → Kumbalam Railway Station,forward
+r13957657,r13957656,Kakkanad ↔ Kumbalam Railway Station,Kakkanad → Kumbalam Railway Station,forward
+r13957657,r13957655,Kakkanad ↔ Kumbalam Railway Station,Kumbalam Railway Station → Kakkanad,backward
+r13957676,r13957675,Kakkanad ↔ Pambayimoola,Kakkanad → Pambayimoola,forward
+r13957676,r13957674,Kakkanad ↔ Pambayimoola,Pambayimoola → Kakkanad,backward
+r13957690,r13957689,Kakkanad ↔ HMT Junction,HMT Junction → Kakkanad,backward
+r13957690,r13957688,Kakkanad ↔ HMT Junction,Kakkanad → HMT Junction,forward
+r13957732,r13957730,Kaloor ↔ Cheppanam,Cheppanam → Kaloor,backward
+r13957732,r13957731,Kaloor ↔ Cheppanam,Kaloor → Cheppanam,forward
+r13957760,r13957759,Thrippoonithura ↔ Cheppanam,Cheppanam → Thrippoonithura,backward
+r13957760,r13957758,Thrippoonithura ↔ Cheppanam,Thrippoonithura → Cheppanam,forward
+r13957778,r13957777,High Court ↔ Kakkanad CEPZ,High Court → Kakkanad CEPZ,forward
+r13957778,r13957776,High Court ↔ Kakkanad CEPZ,Kakkanad CEPZ → High Court,backward
+r13957779,r13957775,High Court ↔ Irumpanam,High Court → Irumpanam,forward
+r13957779,r13957774,High Court ↔ Irumpanam,Irumpanam → High Court,backward
+r13957787,r13957786,Chittoor Ferry ↔ Ernakulam South,Chittoor Ferry → Ernakulam South,forward
+r13957787,r13957785,Chittoor Ferry ↔ Ernakulam South,Ernakulam South → Chittoor Ferry,backward
+r13957793,r13957792,Elamakkara ↔ Thevara,Elamakkara → Thevara,forward
+r13957793,r13957791,Elamakkara ↔ Thevara,Thevara → Elamakkara,backward
+r13957801,r13957799,Ponekkara ↔ Ernakulam South,Ernakulam South → Ponekkara,backward
+r13957801,r13957800,Ponekkara ↔ Ernakulam South,Ponekkara → Ernakulam South,forward
+r13957809,r13957808,Kannamaly ↔ Chellanam,Chellanam → Kannamaly,backward
+r13957809,r13957807,Kannamaly ↔ Chellanam,Kannamaly → Chellanam,forward
+r13957896,r13957895,Kandakkadavu ↔ Mattancherry,Kandakkadavu → Mattancherry,forward
+r13957896,r13957894,Kandakkadavu ↔ Mattancherry,Mattancherry → Kandakkadavu,backward
+r13957907,r13957906,Kandakkadavu ↔ Thoppumpady,Kandakkadavu → Thoppumpady,forward
+r13957907,r13957905,Kandakkadavu ↔ Thoppumpady,Thoppumpady → Kandakkadavu,backward
+r13957927,r13957926,Chottanikkara ↔ Thrippoonithura,Chottanikkara → Thrippoonithura,forward
+r13957927,r13957925,Chottanikkara ↔ Thrippoonithura,Thrippoonithura → Chottanikkara,backward
+r13957936,r13957935,Kozhivettumveli ↔ Thrippoonithura,Kozhivettumveli → Thrippoonithura,forward
+r13957936,r13957934,Kozhivettumveli ↔ Thrippoonithura,Thrippoonithura → Kozhivettumveli,backward
+r13957965,r13957963,Karimugal ↔ Kaloor,Kaloor → Karimugal,backward
+r13957965,r13957964,Karimugal ↔ Kaloor,Karimugal → Kaloor,forward
+r13957988,r13957987,Karimugal ↔ Thrippoonithura,Karimugal → Thrippoonithura,forward
+r13957988,r13957986,Karimugal ↔ Thrippoonithura,Thrippoonithura → Karimugal,backward
+r13958030,r13958028,Munambam ↔ Kakkanad,Kakkanad → Munambam,backward
+r13958030,r13958029,Munambam ↔ Kakkanad,Munambam → Kakkanad,forward
+r13958049,r13958047,West Kadungalloor ↔ Pathalam,Pathalam → West Kadungalloor,backward
+r13958049,r13958048,West Kadungalloor ↔ Pathalam,West Kadungalloor → Pathalam,forward
+r13958060,r13958058,West Kadungalloor ↔ Kothad Ferry,Kothad Ferry → West Kadungalloor,backward
+r13958060,r13958059,West Kadungalloor ↔ Kothad Ferry,West Kadungalloor → Kothad Ferry,forward
+r13958093,r13958091,Nadakkavu ↔ Kaloor,Kaloor → Nadakkavu,backward
+r13958093,r13958092,Nadakkavu ↔ Kaloor,Nadakkavu → Kaloor,forward
+r13958107,r13958106,Nadakkavu ↔ Amrutha Hospital,Amrutha Hospital → Nadakkavu,backward
+r13958107,r13958105,Nadakkavu ↔ Amrutha Hospital,Nadakkavu → Amrutha Hospital,forward
+r13961434,r13961433,Kozhivettumveli ↔ Kozhivettumveli (via Chottanikkara),Kozhivettumveli → Kozhivettumveli,unknown
+r13961485,r13961483,Infopark ↔ Medical College,Infopark → Medical College,forward
+r13961485,r13961484,Infopark ↔ Medical College,Medical College → Infopark,backward
+r13961513,r13961511,Thrippoonithura ↔ Medical College,Medical College → Thrippoonithura,backward
+r13961513,r13961512,Thrippoonithura ↔ Medical College,Thrippoonithura → Medical College,forward
+r13961523,r13961522,Angamaly ↔ Chowara,Angamaly → Chowara,forward
+r13961523,r13961521,Angamaly ↔ Chowara,Chowara → Angamaly,backward
+r13961533,r13961532,Aluva ↔ Pukkattupady,Aluva → Pukkattupady,forward
+r13961533,r13961531,Aluva ↔ Pukkattupady,Pukkattupady → Aluva,backward
+r13961618,r13961617,Keezhmadu ↔ HMT Junction,HMT Junction → Keezhmadu,backward
+r13961618,r13961616,Keezhmadu ↔ HMT Junction,Keezhmadu → HMT Junction,forward
+r13961664,r13961662,Ernakulam South ↔ Chittoor Temple,Chittoor Temple → Ernakulam South,backward
+r13961664,r13961663,Ernakulam South ↔ Chittoor Temple,Ernakulam South → Chittoor Temple,forward
+r13961671,r13961670,Glass Factory ↔ Panangad,Glass Factory → Panangad,forward
+r13961671,r13961669,Glass Factory ↔ Panangad,Panangad → Glass Factory,backward
+r13961680,r13961678,Glass Factory ↔ Chathamma,Chathamma → Glass Factory,backward
+r13961680,r13961679,Glass Factory ↔ Chathamma,Glass Factory → Chathamma,forward
+r13961702,r13961701,Pukkattupady ↔ Ernakulam South,Pukkattupady → Ernakulam South,forward
+r13961702,r13961700,Pukkattupady ↔ Ernakulam South,Ernakulam South → Pukkattupady,backward
+r13961707,r13961705,High Court ↔ Piravom,High Court → Piravom,forward
+r13961707,r13961706,High Court ↔ Piravom,Piravom → High Court,backward
+r13961738,r13961737,Aluva ↔ Njarakkal,Aluva → Njarakkal,forward
+r13961738,r13961736,Aluva ↔ Njarakkal,Njarakkal → Aluva,backward
+r13961822,r13961820,Kakkanad ↔ Chathamma (via Bypass),Chathamma → Kakkanad,unknown
+r13961822,r13961821,Kakkanad ↔ Chathamma (via Bypass),Kakkanad → Chathamma,unknown
+r13961873,r13961871,North Paravur ↔ Cherai,Cherai → North Paravur,backward
+r13961873,r13961872,North Paravur ↔ Cherai,North Paravur → Cherai,forward
+r13968495,r13968494,Ernakulam South ↔ Ponekkara,Ponekkara → Ernakulam South,backward
+r13968495,r13968493,Ernakulam South ↔ Ponekkara,Ernakulam South → Ponekkara,forward
+r13981857,r13981856,High Court ↔ Aluva,Aluva → High Court,backward
+r13981857,r13981855,High Court ↔ Aluva,High Court → Aluva,forward
+r13981896,r13981895,High Court ↔ Aluva (via Eloor),Aluva → High Court,unknown
+r13981896,r13981894,High Court ↔ Aluva (via Eloor),High Court → Aluva,unknown
+r13981912,r13981911,Aluva ↔ Fort Kochi,Aluva → Fort Kochi,forward
+r13981912,r13981910,Aluva ↔ Fort Kochi,Fort Kochi → Aluva,backward
+r13981927,r13981926,Fort Kochi ↔ Kakkanad,Fort Kochi → Kakkanad,forward
+r13981927,r13981925,Fort Kochi ↔ Kakkanad,Kakkanad → Fort Kochi,backward
+r13982061,r13982060,Kaloor ↔ North Paravur,Kaloor → North Paravur,forward
+r13982061,r13982059,Kaloor ↔ North Paravur,North Paravur → Kaloor,backward
+r13982100,r13982098,Aluva ↔ Kaloor,Aluva → Kaloor,forward
+r13982100,r13982099,Aluva ↔ Kaloor,Kaloor → Aluva,backward
+r13982117,r13982116,Aluva ↔ Pathalam,Aluva → Pathalam,forward
+r13982117,r13982115,Aluva ↔ Pathalam,Pathalam → Aluva,backward
+r13982150,r13982149,Aluva ↔ Piravom,Aluva → Piravom,forward
+r13982150,r13982148,Aluva ↔ Piravom,Piravom → Aluva,backward
+r13982207,r13982206,Ankamaly ↔ Vyttila,Ankamaly → Vyttila,forward
+r13982207,r13982205,Ankamaly ↔ Vyttila,Vyttila → Ankamaly,backward
